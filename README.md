@@ -40,7 +40,7 @@ The link given below will be used for classes, should that be needed.
 ## Meetings and Office Hours
 
 All office hours are held via [ZOOM](
-<https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4GyThis>.
+<https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4GyThis>).
 
 This link will remain valid all term.
 
