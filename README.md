@@ -19,29 +19,15 @@ Finally, Professor Kivolowitz has had a passion for Computer Science for
 50 years, long enough to posses lived experience from the late dawn /
 early adolescence of computing.
 
-## Course Summary
+## Course Overview and Introduction
 
-In this course you will not only open the curtain to see the wizard, you
-will strip the wizard bare.
-
-The biggest parts of this course include:
-
-* We will cover nearly all of the great free textbook: OSTEP - Operating
-Systems in Three Easy Pieces. This book is written at a popular level
-and is very accessible.
-
-* We will leverage the Unix programming environment in a deep and
-meaningful way. These are marketable skills.
-
-* We will do up to 8 projects both inside an OS itself and in userland.
-
-## Learning Outcomes
+## Course Objectives and Outcomes
 
 ## Meetings
 
 | Days | Times | Room |
 | ---- | ----- | ---- |
-| TR | 2:20 PM to 4:00 PM | CC 114 |
+| TR | 2:20 PM to 4:00 PM | [ZOOM](<https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4Gy>) |
 
 ### In the event of virtual classes
 
@@ -51,10 +37,11 @@ enough. Not having a Webcam is not an allowable excuse.
 
 The link given below will be used for classes, should that be needed.
 
-## Office hours
+## Meetings and Office Hours
 
 All office hours are held via [ZOOM](
-<https://carthage-edu.zoom.us/j/4456320007?pwd=UmZNa3ZDOTI2NHdhR21sSmxDR21KUT09>).
+<https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4GyThis>.
+
 This link will remain valid all term.
 
 | Day | Times |
@@ -66,12 +53,6 @@ This link will remain valid all term.
 
 Office hours may be recorded if the content is deemed by me to be of
 general use to the class.
-
-### Meetings / Questions outside of office hours
-
-Due to abuse of the instructor's time during Spring 2023, help shall be
-largely limited to the above hours. Make sure you ask your questions
-during class or during posted office hours.
 
 ### Meetings / Questions prior to project due dates
 
@@ -118,124 +99,7 @@ working habits on your part and is not punitive.
 
 The following are the topics which we can expect to be covered:
 
-| OSTEP | Topic | OSTEP | Topic |
-| ----- | ----- | ----- | ----- |
-|  4 | Processes | 21 | Swapping Mechanisms |
-|  5 | Process API | 22 | Swapping Policies |
-|  6 | Limited Direct Execution | 23 | Complete VM System |
-|  7 | CPU Scheduling | 26 | Concurrency and Threads |
-|  8 | Multi-level Feedback | 27 | Thread API |
-|  9 | Lottery Scheduling | 28 | Locks |
-| 10 | Multi-CPU Scheduling | 29 | Locked Data Structures |
-| 13 | Address Spaces | 30 | Condition Variables |
-| 14 | Memory API | 31 | Semaphores |
-| 15 | Address Translation | 32 | Concurrency Bugs |
-| 16 | Segmentation | 33 | Event-based Concurrency |
-| 17 | Free Space Management | 36 | I/O Devices |
-| 18 | Introduction to Paging | 37 | Hard Disk Drives |
-| 19 | Translation Lookaside Buffers | 38 | RAID |
-| 20 | Advanced Page Table | 39 | Files and Directories |
-| | | 40 | File System Implementation |
-
-There are 31 chapters listed above. While we may not get to all, you can
-be certain there will be weeks in which you will be responsible for
-reading more than one chapter. This is not a major burden as the
-chapters are short and the text is written at a popular level.
-
 ### Environment
-
-All projects require use of WSL on Windows or the terminal on the Mac.
-If you're passionate about using Linux directly, this is also an option
-but no help will be provided.
-
-The easiest way to install WSL (Ubuntu) on Windows 11 is to run a
-command prompt as Administrator and then:
-
-`wsl --install`
-
-If this doesn't work, use the Microsoft Store to install Ubuntu.
-
-It is possible you'll have to turn on the Windows Subsystem for Linux in
-the Add Remove Windows Features settings.
-
-I recommend you select a trivial user name and password. For example,
-for my `WSL` I use user name `a` and password `a`.
-
-You'll then need to install the C and C++ environment.
-
-```text
-sudo -i
-apt update
-apt upgrade
-apt install build-essential gdb
-```
-
-By now you will likely have already installed the plugins in VS Code
-needed to work inside WSL. If not, ask a friend.
-
-On the Mac, ensure you have `gcc` and `g++` available to you on the
-command line.
-
-### Installing xv6
-
-On WSL:
-
-```text
-sudo -i
-apt update
-apt install crossbuild-essential-riscv64
-exit
-# decide where you want to load the original xv6
-# and change directory to there.
-git clone https://github.com/mit-pdos/xv6-riscv.git
-```
-
-Make a copy of the xv6 directory for each of the projects using it.
-
-On Mac:
-
-Ensure you have the latest `brew`.
-
-If you don't have `brew`, run this:
-
-`/bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"`
-
-You'll also need the riscv toolchain plus qemu.
-
-To access the riscv tools you need to add the right tap.
-
-`brew tap riscv/riscv`
-
-Then (this does BOTH qemu and the riscv tools):
-
-`brew install qemu riscv-gnu-toolchain`
-
-And as per Windows, get the xv6 repo. It is likely there is a small
-change to be made to the `makefile` to specify the appropriate tool
-chain.
-
-If this is your first time using brew, you will have to make sure it
-is in your path. Add this to the end of your `.zshrc` file (in your
-home directory). Or maybe it's in your `.zprofile`. Or maybe it's in
-your `.zshenv`. Why so many possibilities? Because Apple.
-
-`export PATH=$PATH:/opt/homebrew/bin`
-
-### `man` Pages
-
-Since the early days, Unix has had the `man` command. For example:
-
-`man man`
-
-or
-
-`man 2 chdir`
-
-Consult the man pages before approaching me with questions. Prior to my
-answering a question whose answer is found in the man page, I will
-require you to state your understanding of the man page and articulate
-where your understanding is insufficient. This step is taken to
-encourage good working habits and is not punitive.
 
 ## Attendance
 
@@ -269,12 +133,6 @@ ahead of the **REST OF THEIR LIVES**.
 
 ## Essay
 
-[Here](./therac.md) is a link to an essay assignment. You can look at it
-at your convenience but do it only when assigned. The essay is six
-percent of your grade and, at 500 words, is one third to one sixth the
-length of a typical college essay. Five hundred words about life, death
-and your responsibility as a coder is not too much to ask.
-
 ## Projects
 
 Below is a listing of 10 "projects" of which only 8 are *truly*
@@ -297,42 +155,8 @@ The projects together contribute 92 percent of your final grade.
 
 | # | Project       | Space  | Weight  | OSTEP      | S&R |
 | - | -------       | -----  | ------: | -----      | --- |
-| - | [`getopt`](./projects/warmups/getopt/) | User   | N/A     | N/A        | N/A |
-| 1 | [Shell](./projects/p1) | User   |  80  | 4, 5       | 1, 3, 4, 5, 8, 15 |
-| - | Working xv6 | N/A    |  N/A    | N/A   | N/A |
-| 2 | [System Call](./projects/p2/) | Kernel |  60     | 6          | N/A |
-| 3 | [Schedulers](./projects/p3) | User     |  70     | 7, 8, 9    | N/A |
-| 4 | [Guard Page](./projects/p4/) | Kernel  |  60     | 13         | N/A |
-| 5 | [Allocators](./projects/p5) | User   |  70     | 17         | 7   |
-| 6 | [Semaphores](./projects/p6/) | User  |  70     | 26, 27, 28, 29, 30, 31 | 8, 11, 12 |
-| 7 | [Named Pipe](./projects/p7) | User   |  100 | 26, 27, 28, 29, 30, 31 | 8, 11, 12 |
-| 8 | [FSCK](./projects/p8) | User   | 100 | 39, 40, 42 | 3, 4, 5 |
 
 ### Project Partners
-
-* You are **required** to use a partner for all non-warmup projects.
-
-* Your partner will be **assigned** to you by me.
-
-* Members of the team must be specified by the partner handing in the
-  project within the code they are handing in.
-
-* The partner not handing in the project must submit a text file stating
-  who their partner is.
-
-* Both partners receive the same grade.
-
-* Any partnership problems should be worked out by you but I can step in
-  if necessary.
-
-This is not intended punitively. In your future you will be required to
-work with others. Failure in this can result in your dismissal even if
-your other performance is superlative. Lone Rangers are *not desireable*
-within teams.
-
-It is *your responsibility* to ensure you and your partner work as a
-team. Remember, your partner is *assigned* to you and you will have them
-*only once*.
 
 ### Project Requirements
 
@@ -362,11 +186,6 @@ employment. Hand in what you have... it's better than a zero.
 
 | Gradable Component | Weight  | Notes   |
 | ------------------ | ------: | -----   |
-| Projects           | 92%     |         |
-| Essay              | 6%      |         |
-| `getopt`           | 1%      | warm up |
-| `working xv6`      | 1%      | warm up |
-| Attendance         | Deduction Only    |         |
 
 There is very little likelihood a curve will be applied in computing
 your final grade.
@@ -414,9 +233,6 @@ shall receive an F in the course.
 The decision of the instructor is final.
 
 ## Bonus Materials
-
-See [here](./pptx/) for some very old slides I made describing a few
-topics in very succinct terms.
 
 ## General statement about "help"
 
