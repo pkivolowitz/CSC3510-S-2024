@@ -23,21 +23,11 @@ early adolescence of computing.
 
 ## Course Objectives and Outcomes
 
-## Meetings
+## Meetings and Office Hours
 
 | Days | Times | Room |
 | ---- | ----- | ---- |
 | TR | 2:20 PM to 4:00 PM | [ZOOM](<https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4Gy>) |
-
-### In the event of virtual classes
-
-Should we meet via Zoom. **All cameras must be on to the maximum degree
-possible.** If you are on a desktop, get a Webcam, they are cheap
-enough. Not having a Webcam is not an allowable excuse.
-
-The link given below will be used for classes, should that be needed.
-
-## Meetings and Office Hours
 
 All office hours are held via [ZOOM](
 <https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4GyThis>).
