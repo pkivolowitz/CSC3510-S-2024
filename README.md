@@ -6,43 +6,96 @@ page.
 ## About the Professor
 
 Professor Perry Kivolowitz has retired from full time teaching after 19
-years (ten at UW-Madison and nine-and-counting at Carthage College). He
-continues to teach two highly specialized courses: CSC4730 - Operating
-Systems and CSC3510 - Computer Organization.
+years (ten at UW-Madison and nine at Carthage College). He continues to
+teach two highly specialized courses at Carthage: CSC4730 - Operating
+Systems and CSC3510 - Computer Organization. 
+
+*He will continue doing so only as long as he enjoys it.*
 
 In addition to his years in academia, Professor Kivolowitz enjoyed a
 more than 40 year career as an entrepreneur and inventor mostly in the
 field of visual effects for motion pictures and television. He has been
 awarded with two Emmy Awards and an Academy Award for his work.
 
-Finally, Professor Kivolowitz has had a passion for Computer Science for
-50 years, long enough to posses lived experience from the late dawn /
-early adolescence of computing.
+The digressions he will make constitute significant value. Professor
+Kivolowitz has had a passion for Computer Science for 50 years, long
+enough to posses **lived** experience from the late dawn / early
+adolescence of computing.
+
+*So pay some freaking attention and let the old man rant.*
 
 ## Course Overview and Introduction
 
+This course is entitled Computer Organization. This classically suggests
+we'll start with *and* and *or* logic gates and built our way up to a
+simple computer. This is fine if you are going to be an EE. Electrical
+engineering is not the focus of this Computer Science program. Software
+excellence is. This is also fine if you're stuck in the past.
+
+This course presents Computer Organization from the perspective of a
+software developer.
+
+### This is a Required Course
+
+You cannot complete the CS program at Carthage College without achieving
+a grade of C- or better. This is a very low bar. In my view it should
+require a B or better. Do you want the coder of the avionics software of
+the plane your family is riding on to be written by a C- coder?
+
 ## Course Objectives and Outcomes
+
+As stated above, this course presents Computer Organization from the
+perspective of the *astute* and *sagacious* software developer.
+
+As a result of taking this course you will be:
+
+* quite proficient and knowledgeable of the ARM V8 64-bit ISA
+(Instruction Set Architecture).
+
+* knowledgeable of the ramifications of choices that you make in higher level
+languages on performance.
+
+* knowledgeable of number formats and operations.
+
+* knowledgeable of bit oriented operations.
+
+* discern the effect of CPU specifications upon performance with
+understanding of the parts of a CPU.
+
+* discern the effect of computer specifications upon performance with
+understanding of components like buses, memory and storage devices.
 
 ## Meetings and Office Hours
 
-| Days | Times | Room |
-| ---- | ----- | ---- |
-| TR | 2:20 PM to 4:00 PM | [ZOOM](<https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4Gy>) |
+All meetings and office hours are virtual. These are held here:
 
-All office hours are held via [ZOOM](
-<https://www.google.com/url?q=https://carthage-edu.zoom.us/j/94497021922?pwd%3DeWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09&sa=D&source=calendar&ust=1696453887001340&usg=AOvVaw2Btyz8fsOmxG_t4SDxm4GyThis>).
+[Zoom Link](<https://carthage-edu.zoom.us/j/94497021922?pwd=eWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09>)
 
-This link will remain valid all term.
+Class Meetings:
+
+| Days | Times |
+| ---- | ----- |
+| TR | 2:20 PM to 4:00 PM |
+
+Office Hours:
 
 | Day | Times |
 | --- | ----- |
 | M | 11 AM to 12 PM |
 | T | 11 AM to 12 PM |
-| R | 7 PM to 9 PM |
+| BBQ | 7 PM to 9 PM |
 | F | 12 PM to 1 PM |
+
+The Day "BBQ" coincides with whatever day the BBQ is to be held on.
 
 Office hours may be recorded if the content is deemed by me to be of
 general use to the class.
+
+### Meetings / Questions outside of office hours
+
+Due to abuse of the instructor's time during Spring 2023, help shall be
+largely limited to the above hours. Make sure you ask your questions
+during class or during posted office hours.
 
 ### Meetings / Questions prior to project due dates
 
@@ -53,31 +106,27 @@ starting work early / working steadily. This is not intended punitively.
 
 ## Texts
 
-Primary: [OSTEP](<https://pages.cs.wisc.edu/~remzi/OSTEP/>) This book is
-free.
+Primary: [My Assembly Language Book](https://github.com/pkivolowitz/asm_book) 
+This book is free and a work in progress.
 
-Ancillary:
+Ancillary (These are listed in order of usability / importance):
 
-1. Required: Advanced Programming in the UNIX environment, third
-   edition. I will refer to this as Stevens and Rago. If you have any
-   questions about the Unix / Linux environment and APIs, consult this
-   book before approaching me.
+1. [ARM V8-A Reference Manual](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/armv8_arm.pdf>)
 
-2. [xv6
-   risc-v](<https://pdos.csail.mit.edu/6.S081/2020/xv6/book-riscv-rev1.pdf>)
-   This book is free.
+2. [ARM V8-A ISA](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/Armv8-A%20Instruction%20Set%20Architecture.pdf>)
+
+3. [Load Linked Store Condition](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/USENIX2020.pdf>)
+
+4. [ARM Scalable Vector Extension](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/sve-ieee-micro-2017.pdf>)
 
 ## Readings
 
-There are two types of readings in this class.
-
-1. Assigned readings will come from OSTEP.
-
-2. Unassigned readings will come from the two ancillary texts. Being
-unassigned, you will **not** be told when to do them. Instead, review
-the table of contents in each of the two ancillary sources to get a
-general idea of that they contain. Then, later in the course, when you
-have a question, review the ancillary texts for details.
+There are no assigned readings in this class. Daddy's not spoon feeding
+you by telling you what to read and when. I *will* often make
+suggestions. Take these suggestions seriously. Not assigning reading is
+intended to mimic real life as a software developer. Nobody holds your
+hand. Preparing you for your post-Carthage life is appropriate for this
+level of course.
 
 You expected to have consulted the texts before approaching me with
 questions. If I should answer something to the effect that the answer is
@@ -89,7 +138,18 @@ working habits on your part and is not punitive.
 
 The following are the topics which we can expect to be covered:
 
-### Environment
+## Environment
+
+Our programming environment is a Linux ARM distribution. It is required
+on both Windows and Macintosh (even if you have an ARM-based Macintosh
+or a rare ARM-based Windows machine).
+
+The installation guide is found [here](<./install.md>).
+
+Note, if you are on an ARM Windows machine, let me know. I'd like to
+know how and where you got it. I have the Microsoft ARM Development
+machine, myself. I like it but you will have to use WSL as the API we
+are using is Linux.
 
 ## Attendance
 
@@ -123,6 +183,8 @@ ahead of the **REST OF THEIR LIVES**.
 
 ## Essay
 
+To be written.
+
 ## Projects
 
 Below is a listing of 10 "projects" of which only 8 are *truly*
@@ -133,20 +195,27 @@ The *Weight* column provides a weighting of the project within the
 Project Grading Component. It suggests my anticipation of the *relative*
 difficulty of each project compared to the others.
 
-The *OSTEP* column indicates how the projects correspond to course
-material. The indicated chapters will be most helpful.
+The first warmup contributes 1 point to your final grade.
 
-The *S&R* column indicates which chapters of Stevens and Rago can be
-helpful.
-
-The warmups each contribute one point to your final grade.
+The second warmup contributes 2 points to your final grade.
 
 The projects together contribute 92 percent of your final grade.
 
-| # | Project       | Space  | Weight  | OSTEP      | S&R |
-| - | -------       | -----  | ------: | -----      | --- |
+| # | Project                             | Weight  | Partner |
+| - | -------                             | ------: | ------- |
+| 1 | Warmup - Tell me about you          | 1 | No |
+| 2 | Warmup - Installing the Environment | 2 | No |
 
 ### Project Partners
+
+Choose whom you like to partner with for those projects which are
+partner projects. A project is a partner project if it says so above.
+
+Please get over partnering with losers. You know, that friend of yours
+who has been riding your skills, knowledge and work effort all through
+college.
+
+<div style="font-size: large;">Let the losers lose.</div>
 
 ### Project Requirements
 
