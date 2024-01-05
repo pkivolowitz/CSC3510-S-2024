@@ -109,7 +109,7 @@ necessary, please speak to me as soon as possible.
 
 ## Arriving Late
 
-Once attendance has been taken, anyone arriving after than will be
+Once attendance has been taken, anyone arriving after then will be
 counted as absent. Generally, attendance will end between five and ten
 minutes after the official start of class.
 
