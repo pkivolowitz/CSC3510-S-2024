@@ -215,7 +215,13 @@ Please get over partnering with losers. You know, that friend of yours
 who has been riding your skills, knowledge and work effort all through
 college.
 
-<div style="font-size: large;">Let the losers lose.</div>
+**Let the losers lose.**
+
+Better they learn this lesson now then get fired later or worse: injure
+or kill someone because of their incompetence.
+
+Partners get the same grade. If your partner ducks up, it's a **you**
+problem. See above.
 
 ### Project Requirements
 
@@ -229,7 +235,11 @@ college.
 * Commenting is required. Failure to adequately comment is a mandatory 5
   percent penalty.
 
-### No Late work
+### Project Grace Days
+
+All projects get one grace day, no questions asked.
+
+### No Late work apart from grace days
 
 **Late work (factoring in one free grace day) will not be accepted.**
 
