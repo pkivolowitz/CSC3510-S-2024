@@ -8,32 +8,41 @@ page.
 Professor Perry Kivolowitz has retired from full time teaching after 19
 years (ten at UW-Madison and nine at Carthage College). He continues to
 teach two highly specialized courses at Carthage: CSC4730 - Operating
-Systems and CSC3510 - Computer Organization. 
+Systems and CSC3510 - Computer Organization.
 
-*He will continue doing so only as long as he enjoys it.*
+*They will continue doing so only as long as they enjoys it.*
 
-In addition to his years in academia, Professor Kivolowitz enjoyed a
+In addition to their years in academia, Professor Kivolowitz enjoyed a
 more than 40 year career as an entrepreneur and inventor mostly in the
-field of visual effects for motion pictures and television. He has been
-awarded with two Emmy Awards and an Academy Award for his work.
+field of visual effects for motion pictures and television. They have been
+awarded with two Emmy Awards and an Academy Award for their work.
 
-The digressions he will make constitute significant value. Professor
+The digressions they will make constitute significant value. Professor
 Kivolowitz has had a passion for Computer Science for 50 years, long
 enough to posses **lived** experience from the late dawn / early
 adolescence of computing.
 
-*So pay some freaking attention and let the old man rant.*
+*So pay some freaking attention and let the old boomer rant.*
 
 ## Course Overview and Introduction
 
 This course is entitled Computer Organization. This classically suggests
-we'll start with *and* and *or* logic gates and built our way up to a
-simple computer. This is fine if you are going to be an EE. Electrical
-engineering is not the focus of this Computer Science program. Software
-excellence is. This is also fine if you're stuck in the past.
+we'll start with *and* and *or* logic gates and build our way up to a
+simple computer. This is fine if you are going to be an EE. 
 
-This course presents Computer Organization from the perspective of a
-software developer.
+Electrical engineering is not the focus of this Computer Science program.
+Software excellence is. This is also fine if you're stuck in the past.
+
+This course presents Computer Organization from the perspective of an astute and
+sagacious software developer. More deeply, this course is about software
+excellence. By stressing assembly language, the harshest and most unforgiving of
+languages, you'll learn patience, diligence, perseverance and **discipline**.
+
+It's one thing to develop software while sipping a Venti Iced Caramel Macciato
+made with Blonde Espresso Upside Down 1/2 Vanilla Syrup 1/2 Dark Caramel Syrup
+Topped with Salted Caramel in Stratos, Elysium or Zalem.
+
+It's another thing to code on Crematoria, LV-426 or Ceti Alpha V.
 
 ### This is a Required Course
 
@@ -183,37 +192,29 @@ ahead of the **REST OF THEIR LIVES**.
 
 ## Essay
 
-To be written.
+You will be required to write an essay as part of class. It is found
+[here](./essay.md).
 
 ## Projects
 
-Below is a listing of 10 "projects" of which only 8 are *truly*
-projects. One is a tutorial and another is just to provide proof you're
-ready to tackle the two kernel projects.
+Below is a listing of some number of projects.
 
 The *Weight* column provides a weighting of the project within the
 Project Grading Component. It suggests my anticipation of the *relative*
 difficulty of each project compared to the others.
 
-The first warmup contributes 1 point to your final grade.
-
-The second warmup contributes 2 points to your final grade.
-
-The projects together contribute 92 percent of your final grade.
+Projects contribute 82 percent of your final grade.
 
 | # | Project                             | Weight  | Partner |
 | - | -------                             | ------: | ------- |
-| 1 | Warmup - Tell me about you          | 1 | No |
-| 2 | Warmup - Installing the Environment | 2 | No |
 
 ### Project Partners
 
-Choose whom you like to partner with for those projects which are
-partner projects. A project is a partner project if it says so above.
+Choose whom you like to partner with for those projects which are partner
+projects. A project is a partner project if it says so above.
 
-Please get over partnering with losers. You know, that friend of yours
-who has been riding your skills, knowledge and work effort all through
-college.
+Please get over partnering with losers. You know, that friend of yours who has
+been riding your skills, knowledge and work effort all through college.
 
 **Let the losers lose.**
 
@@ -229,8 +230,8 @@ problem. See above.
 
 * Any deviation from the specification likely results in penalties.
 
-* Generating even a single warning during building your own code will
-  result in a 10 percent penalty. I will build on MacOS.
+* Generating even a single warning during building your code will
+  result in a 10 percent penalty.
 
 * Commenting is required. Failure to adequately comment is a mandatory 5
   percent penalty.
@@ -255,6 +256,10 @@ employment. Hand in what you have... it's better than a zero.
 
 | Gradable Component | Weight  | Notes   |
 | ------------------ | ------: | -----   |
+| Attendance         | 10 | |
+| Warmups            |  3 | |
+| Essay              |  5 | |
+| Projects           | 82 | |
 
 There is very little likelihood a curve will be applied in computing
 your final grade.
