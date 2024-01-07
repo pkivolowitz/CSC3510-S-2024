@@ -22,7 +22,7 @@ Kivolowitz has had a passion for Computer Science for 50 years, long
 enough to posses **lived** experience from the late dawn / early
 adolescence of computing.
 
-*So pay some freaking attention and let the old boomer rant.*
+*So pay some freaking attention when the old boomer rants.*
 
 ## Course Overview and Introduction
 
