@@ -6,7 +6,7 @@ page.
 ## About the Professor
 
 Professor Perry Kivolowitz has retired from full time teaching after 19
-years (ten at UW-Madison and nine at Carthage College). He continues to
+years (ten at UW-Madison and nine at Carthage College). They continues to
 teach two highly specialized courses at Carthage: CSC4730 - Operating
 Systems and CSC3510 - Computer Organization.
 
