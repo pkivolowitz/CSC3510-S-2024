@@ -10,7 +10,7 @@ years (ten at UW-Madison and nine at Carthage College). They continues to
 teach two highly specialized courses at Carthage: CSC4730 - Operating
 Systems and CSC3510 - Computer Organization.
 
-*They will continue doing so only as long as they enjoys it.*
+*They will continue doing so only as long as they enjoy it.*
 
 In addition to their years in academia, Professor Kivolowitz enjoyed a
 more than 40 year career as an entrepreneur and inventor mostly in the
