@@ -68,10 +68,10 @@ languages on performance.
 
 * knowledgeable of bit oriented operations.
 
-* discern the effect of CPU specifications upon performance with
+* able to discern the effect of CPU specifications upon performance with
 understanding of the parts of a CPU.
 
-* discern the effect of computer specifications upon performance with
+* able to discern the effect of computer specifications upon performance with
 understanding of components like buses, memory and storage devices.
 
 ## Meetings and Office Hours
