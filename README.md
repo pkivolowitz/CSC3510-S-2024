@@ -6,16 +6,16 @@ page.
 ## About the Professor
 
 Professor Perry Kivolowitz has retired from full time teaching after 19
-years (ten at UW-Madison and nine at Carthage College). They continues to
-teach two highly specialized courses at Carthage: CSC4730 - Operating
+years (ten at UW-Madison and nine at Carthage College). They continues
+to teach two highly specialized courses at Carthage: CSC4730 - Operating
 Systems and CSC3510 - Computer Organization.
 
 *They will continue doing so only as long as they enjoy it.*
 
 In addition to their years in academia, Professor Kivolowitz enjoyed a
 more than 40 year career as an entrepreneur and inventor mostly in the
-field of visual effects for motion pictures and television. They have been
-awarded with two Emmy Awards and an Academy Award for their work.
+field of visual effects for motion pictures and television. They have
+been awarded with two Emmy Awards and an Academy Award for their work.
 
 The digressions they will make constitute significant value. Professor
 Kivolowitz has had a passion for Computer Science for 50 years, long
@@ -33,14 +33,16 @@ simple computer. This is fine if you are going to be an EE.
 Electrical engineering is not the focus of this Computer Science program.
 Software excellence is. This is also fine if you're stuck in the past.
 
-This course presents Computer Organization from the perspective of an astute and
-sagacious software developer. More deeply, this course is about software
-excellence. By stressing assembly language, the harshest and most unforgiving of
-languages, you'll learn patience, diligence, perseverance and **discipline**.
+This course presents Computer Organization from the perspective of an
+astute and sagacious software developer. More deeply, this course is
+about software excellence. By stressing assembly language, the harshest
+and most unforgiving of languages, you'll learn patience, diligence,
+perseverance and **discipline**.
 
-It's one thing to develop software while sipping a Venti Iced Caramel Macciato
-made with Blonde Espresso Upside Down 1/2 Vanilla Syrup 1/2 Dark Caramel Syrup
-Topped with Salted Caramel in Stratos, Elysium or Zalem.
+It's one thing to develop software while sipping a Venti Iced Caramel
+Macchiato made with Blonde Espresso Upside Down 1/2 Vanilla Syrup 1/2
+Dark Caramel Syrup Topped with Salted Caramel in Stratos, Elysium or
+Zalem.
 
 It's another thing to code on Crematoria, LV-426 or Ceti Alpha V.
 
@@ -49,7 +51,8 @@ It's another thing to code on Crematoria, LV-426 or Ceti Alpha V.
 You cannot complete the CS program at Carthage College without achieving
 a grade of C- or better. This is a very low bar. In my view it should
 require a B or better. Do you want the coder of the avionics software of
-the plane your family is riding on to be written by a C- coder?
+the plane your family is riding in to be written by a C- coder? How
+about Paw Paw's pacemaker? You want a C- student writing that code?
 
 ## Course Objectives and Outcomes
 
@@ -145,7 +148,27 @@ working habits on your part and is not punitive.
 
 ### Topics Covered
 
-The following are the topics which we can expect to be covered:
+The following are the topics which we can expect to be covered. This
+list may be incomplete and specific items on the list may be omitted
+subject to class pace.
+
+* ARM V8 ISA
+
+* Registers Including Some Special Registers
+
+* Cache Memory Systems
+
+* Bus Systems
+
+* Binary, Octal and Hexadecimal
+
+* Integers, Two's Complement Arithmetic
+
+* IEEE 754 Floating Point Numbers
+
+* Bitwise Operations in ARM V8 and C / C++
+
+
 
 ## Environment
 
