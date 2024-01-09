@@ -1,15 +1,15 @@
 # Echo stdin to stdout
 
 This is your first assembly language project. The program, befitting a
-first project, is straight forward. In a loop, it reads 1 byte from
-`stdin` and writes it to `stdout`. See below for how the program is made
-to exit.
+first project, is straight forward enough. In a loop, it reads 1 byte
+from `stdin` and writes it to `stdout`. See below for how the program is
+made to exit.
 
 ## Using man pages
 
 Below you will find references using and reading *man* pages. This is
-how the early Unix system supplied their documentation and this is still
-used. In fact, they continue to be the very best documentation.
+how the early Unix system supplied their documentation and these are
+still the definitive authority.
 
 *Warning: don't use man from the Macintosh terminal!*
 
@@ -21,8 +21,10 @@ information.
 
 ### From the keyboard
 
-If you simply run the program, it will read your keystrokes. When
-you hit enter, the line you typed will be written back to you.
+If you simply run the program, it will read your keystrokes. Nothing
+will be output to you. When you hit enter, the line you typed will be
+written back. 
+
 Execution stops when you:
 
 a) hit ^c (control C) - this sends a signal to the receiving process
@@ -42,10 +44,6 @@ a@PROMETHEUS:~/repos/pk_echo$
 I invoked the program and typed "Foo" and hit enter. The program wrote
 back "Foo" and a new line. Then I hit ^d so the program exited.
 
-You do not have to watch for a new line for the program to work. You
-must watch for the system call `read` to return an end-of-file. Consult
-the man pages.
-
 ### From redirection
 
 An awesome feature of the command line is the ability to redirect input
@@ -59,14 +57,16 @@ A COMPORG project suitable for 1st project
 a@PROMETHEUS:~/repos/pk_echo$ 
 ```
 
-Your program has **no** idea its input is coming from a file rather than
-the keyboard.
+The input to the program came from the file named on the command line
+after the "<". The less-than says "take input from". My program knows
+nothing about where its input is coming from. Notice, I did not change
+it in any way.
 
 ## `stdin` and `stdout`
 
 You know what `cin` and `cout` are. They are built on top of `stdin` and
-`stdout`. These in turn devolve down into input and output channels
-denoted by *file descriptors*. See next:
+`stdout`. These in turn devolve downwards into input and output channels
+denoted by *file descriptors*.
 
 | File Descriptor | Name | C++ Equivalence |
 | - | - | - |
@@ -74,11 +74,14 @@ denoted by *file descriptors*. See next:
 | 1 | stdout | cout |
 | 2 | stderr | cerr |
 
-A file descriptor is a small integer starting with 0. See the table
-above to find that 0, 1 and 2 are special. Consult [this
-video](<https://youtu.be/4DggLHAOhn8>) for more information about file
-descriptors. Note that this video is designed for CSC 4730 and not this
-class. Hence some of the terminology will be strange.
+File descriptors are small integers which are in fact, array indices
+into an array of open "files" maintained by the Operating System. They
+can range from 0 upward to a small limit such as 20 on old Unix systems
+to 2560 on the current Mac OS and 1024 on the current Linux. The size of
+the array defines the maximum number of open "files" a process can have
+at one time.
+
+The Apple number is just stupid.
 
 ## `read()` and `write()`
 
@@ -148,20 +151,20 @@ one byte.
 
 ## Special registers
 
-Remember to begin your program with:
+Remember that `x29` and `x30` are special.
 
-```text
-        stp     x29, x30, [sp, -16]!
-        mov     x29, sp
-```
+## Return value from the *program*
 
-and end it with:
+Programs can act like functions to other programs. This is why you have
+always returned 0 from `main()` (or were taught about other values if
+you were taught by me).
 
-```text
-        ldp     x29, x30, [sp], 16
-        mov     w0, wzr
-        ret
-```
+If no errors are detected on `write()`, you must return 0.
+
+If an error is detected on `write()` you must return 1.
+
+Any error detected on `read()` should end the program and it is OK to
+return 0.
 
 ## Other reminders
 
@@ -175,11 +178,6 @@ and end it with:
 
 * Remember to end your program with `.end`
 
-* Carefully examine the calling signatures of system calls like `read`
-and `write`. You must use the correct variant of integer register for
-the parameter you are passing. Failure to do so will earn negative bonus
-points.
-
 ## Work rules
 
 All work is done alone. No partners.
@@ -187,6 +185,15 @@ All work is done alone. No partners.
 ## Expectations
 
 The following is provided to set your expectations and is not a
-challenge. Including some comments and blank lines, my solution runs
-35 lines. You have one week to write about 35 lines plus one grace day.
-You should be able to crush this if you ask questions and read my book.
+challenge. Including some comments and blank lines, my Apple / Linux
+solution runs 40 lines. You have one week to write about 40 lines plus
+one grace day. You should be able to crush this if you ask questions and
+read my book.
+
+## Helpful video
+
+There is a video on Youtube demonstrating `read()`. The source code is
+written for Linux only, but this shouldn't be a problem. Find the video
+on Schoology.
+
+The first person to ask "Where on Schoology" earns my scorn.
