@@ -6,16 +6,16 @@ page.
 ## About the Professor
 
 Professor Perry Kivolowitz has retired from full time teaching after 19
-years (ten at UW-Madison and nine at Carthage College). They continues to
-teach two highly specialized courses at Carthage: CSC4730 - Operating
+years (ten at UW-Madison and nine at Carthage College). They continues
+to teach two highly specialized courses at Carthage: CSC4730 - Operating
 Systems and CSC3510 - Computer Organization.
 
 *They will continue doing so only as long as they enjoy it.*
 
 In addition to their years in academia, Professor Kivolowitz enjoyed a
 more than 40 year career as an entrepreneur and inventor mostly in the
-field of visual effects for motion pictures and television. They have been
-awarded with two Emmy Awards and an Academy Award for their work.
+field of visual effects for motion pictures and television. They have
+been awarded with two Emmy Awards and an Academy Award for their work.
 
 The digressions they will make constitute significant value. Professor
 Kivolowitz has had a passion for Computer Science for 50 years, long
@@ -30,17 +30,20 @@ This course is entitled Computer Organization. This classically suggests
 we'll start with *and* and *or* logic gates and build our way up to a
 simple computer. This is fine if you are going to be an EE. 
 
-Electrical engineering is not the focus of this Computer Science program.
-Software excellence is. This is also fine if you're stuck in the past.
+Electrical engineering is not the focus of this Computer Science
+program. Software excellence is. This is also fine if you're stuck in
+the past.
 
-This course presents Computer Organization from the perspective of an astute and
-sagacious software developer. More deeply, this course is about software
-excellence. By stressing assembly language, the harshest and most unforgiving of
-languages, you'll learn patience, diligence, perseverance and **discipline**.
+This course presents Computer Organization from the perspective of an
+astute and sagacious software developer. More deeply, this course is
+about software excellence. By stressing assembly language, the harshest
+and most unforgiving of languages, you'll learn patience, diligence,
+perseverance and **discipline**.
 
-It's one thing to develop software while sipping a Venti Iced Caramel Macciato
-made with Blonde Espresso Upside Down 1/2 Vanilla Syrup 1/2 Dark Caramel Syrup
-Topped with Salted Caramel in Stratos, Elysium or Zalem.
+It's one thing to develop software while sipping a Venti Iced Caramel
+Macchiato made with Blonde Espresso Upside Down 1/2 Vanilla Syrup 1/2
+Dark Caramel Syrup Topped with Salted Caramel in Stratos, Elysium or
+Zalem.
 
 It's another thing to code on Crematoria, LV-426 or Ceti Alpha V.
 
@@ -49,7 +52,8 @@ It's another thing to code on Crematoria, LV-426 or Ceti Alpha V.
 You cannot complete the CS program at Carthage College without achieving
 a grade of C- or better. This is a very low bar. In my view it should
 require a B or better. Do you want the coder of the avionics software of
-the plane your family is riding on to be written by a C- coder?
+the plane your family is riding in to be written by a C- coder? How
+about Paw Paw's pacemaker? You want a C- student writing that code?
 
 ## Course Objectives and Outcomes
 
@@ -61,8 +65,8 @@ As a result of taking this course you will be:
 * quite proficient and knowledgeable of the ARM V8 64-bit ISA
 (Instruction Set Architecture).
 
-* knowledgeable of the ramifications of choices that you make in higher level
-languages on performance.
+* knowledgeable of the ramifications of choices that you make in higher
+level languages on performance.
 
 * knowledgeable of number formats and operations.
 
@@ -71,14 +75,15 @@ languages on performance.
 * able to discern the effect of CPU specifications upon performance with
 understanding of the parts of a CPU.
 
-* able to discern the effect of computer specifications upon performance with
-understanding of components like buses, memory and storage devices.
+* able to discern the effect of computer specifications upon performance
+with understanding of components like buses, memory and storage devices.
 
 ## Meetings and Office Hours
 
 All meetings and office hours are virtual. These are held here:
 
-[Zoom Link](<https://carthage-edu.zoom.us/j/94497021922?pwd=eWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09>)
+[Zoom
+Link](<https://carthage-edu.zoom.us/j/94497021922?pwd=eWc4U0lSb0FWSElsVUt4cTQ4YkNEdz09>)
 
 Class Meetings:
 
@@ -115,18 +120,23 @@ starting work early / working steadily. This is not intended punitively.
 
 ## Texts
 
-Primary: [My Assembly Language Book](https://github.com/pkivolowitz/asm_book) 
-This book is free and a work in progress.
+Primary: [My Assembly Language
+Book](https://github.com/pkivolowitz/asm_book) This book is free and a
+work in progress.
 
 Ancillary (These are listed in order of usability / importance):
 
-1. [ARM V8-A Reference Manual](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/armv8_arm.pdf>)
+1. [ARM V8-A Reference
+   Manual](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/armv8_arm.pdf>)
 
-2. [ARM V8-A ISA](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/Armv8-A%20Instruction%20Set%20Architecture.pdf>)
+2. [ARM V8-A
+   ISA](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/Armv8-A%20Instruction%20Set%20Architecture.pdf>)
 
-3. [Load Linked Store Condition](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/USENIX2020.pdf>)
+3. [Load Linked Store
+   Condition](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/USENIX2020.pdf>)
 
-4. [ARM Scalable Vector Extension](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/sve-ieee-micro-2017.pdf>)
+4. [ARM Scalable Vector
+   Extension](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/sve-ieee-micro-2017.pdf>)
 
 ## Readings
 
@@ -145,7 +155,69 @@ working habits on your part and is not punitive.
 
 ### Topics Covered
 
-The following are the topics which we can expect to be covered:
+The following are the topics which we can expect to be covered. This
+list may be incomplete and specific items on the list may be omitted
+subject to class pace.
+
+* ARM V8 ISA
+
+  * Basic Instructions
+
+  * Addressing Modes
+
+  * Integer Math Instructions
+
+  * Floating Point Math Instructions
+
+  * Conditional Instructions
+
+  * Branch Instructions
+
+  * Branch With Link
+
+  * Synchronization Instructions
+
+* Registers Including Some Special Registers
+
+* Implementation of Control Structures
+
+  * if, if / else, if / else if
+
+  * while, for, do / until
+
+  * switch
+
+* `struct`
+
+* arrays
+
+* Function Calls and Argument Passing
+
+* Variadic Functions
+
+* System Calls
+
+* Cache Memory Systems
+
+* Rotating Disc Systems and Maybe, SSDs
+
+* RAID Architectures
+
+* Bus Systems
+
+* Binary, Octal and Hexadecimal
+
+* Integers, Two's Complement Arithmetic
+
+* IEEE 754 Floating Point Numbers
+
+* Bitwise Operations
+
+  * in ARM V8
+
+  * in C and C++
+
+  * Bit Bashing
 
 ## Environment
 
@@ -210,11 +282,12 @@ Projects contribute 82 percent of your final grade.
 
 ### Project Partners
 
-Choose whom you like to partner with for those projects which are partner
-projects. A project is a partner project if it says so above.
+Choose whom you like to partner with for those projects which are
+partner projects. A project is a partner project if it says so above.
 
-Please get over partnering with losers. You know, that friend of yours who has
-been riding your skills, knowledge and work effort all through college.
+Please get over partnering with losers. You know, that friend of yours
+who has been riding your skills, knowledge and work effort all through
+college.
 
 **Let the losers lose.**
 
@@ -230,8 +303,8 @@ problem. See above.
 
 * Any deviation from the specification likely results in penalties.
 
-* Generating even a single warning during building your code will
-  result in a 10 percent penalty.
+* Generating even a single warning during building your code will result
+  in a 10 percent penalty.
 
 * Commenting is required. Failure to adequately comment is a mandatory 5
   percent penalty.
