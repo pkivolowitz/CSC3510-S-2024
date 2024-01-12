@@ -226,7 +226,7 @@ How? vi, of course.
 6. `ESC`
 7. `:wq<enter>`
 
-The next time you log in, you should have the alias. You can confirm
+The **next** time you log in, you should have the alias. You can confirm
 this by:
 
 ```text
@@ -300,3 +300,28 @@ Don't use the console directly. From time to time, the system burbles
 text to this console, potentially messing up your work. ssh in instead.
 You have been warned.
 
+## For every assembly language project
+
+You, by now, have installed the VS Code plug-ins specified above.
+
+To initialize the SSH plug-in:
+
+* Hit F1
+
+* Select Remote-SSH: Add New SSH Host...
+
+* Type in and hit enter: user@localhost -p 2222
+
+* Hit F1
+
+* Select Remote-SSH: Connect to Host
+
+* Type in and enter: user@localhost
+
+* It will ask you for a password. It is the letter "a"
+
+* It will open another VS Code Window
+
+* It will think for a bit and the first time, will install some stuff
+
+* 

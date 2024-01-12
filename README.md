@@ -28,7 +28,7 @@ adolescence of computing.
 
 This course is entitled Computer Organization. This classically suggests
 we'll start with *and* and *or* logic gates and build our way up to a
-simple computer. This is fine if you are going to be an EE. 
+simple computer. This is fine if you are going to be an EE.
 
 Electrical engineering is not the focus of this Computer Science
 program. Software excellence is. This is also fine if you're stuck in
@@ -262,10 +262,27 @@ friends with persons arriving at practice before 4 PM, they do not have
 afternoon classes or are choosing to put their extra-curricular sports
 ahead of the **REST OF THEIR LIVES**.
 
-## Essay
+## Warmups
+
+There are two warmup exercises that are graded and are included in your
+final grade.
+
+The first is an essay. It is already assigned and is due 2/1/2024 at
+11:59 PM.
+
+The second is to be completed after you install the environment we will
+be using. The exercise is simply to modify some source code which is
+supplied to you, build it, run it, take a screen shot of it. Submit the
+screen shot. This is already assigned as is due on 2/6/2024.
+
+### Essay
 
 You will be required to write an essay as part of class. It is found
 [here](./essay.md).
+
+### Build Code
+
+
 
 ## Projects
 
