@@ -29,7 +29,7 @@ to define the constant. `TAILLEN` says that at most 10 lines will be
 printed.
 
 ```text
-	.EQU	TAILLEN, 10
+    .EQU    TAILLEN, 10
 ```
 
 Certainly, if the file is shorter than `TAILLEN` lines, you'll print
@@ -40,14 +40,16 @@ less.
 There is a `getline()` but you may **not** use it.
 
 Rather, you must write it yourself. To do so, you will allocate (and at
-the end, free) a fixed temporary buffer of 4096 bytes. Then, read one
-character at a time into the buffer until you find a newline. You already
-have experience using `read()`. You'll use this again.
+the end, free) a fixed temporary buffer of 4096 bytes.
+
+Then, read one character at a time into the buffer until you find a
+newline. You already have experience using `read()`. You'll use this
+again.
 
 In the first project, you read 1 character at a time into a buffer just
 large enough to hold the character (actually a few but ignore that). In
 this project, you will be reading into successive bytes of a larger
-buffer. This is easy to do...
+buffer. This is easy to do in one of several ways...
 
 Once you've found a newline, add a null terminator. You have completed a
 line which is now ready to transfer into your circular buffer (see
@@ -188,7 +190,7 @@ Other C library or system calls you are likely to use:
 
 * memset
 
-* strlen
+* strlen -- note that use of this function is dangerous. Why?
 
 * puts
 
@@ -223,7 +225,7 @@ come from the file):
 This file is very long:
 
 ```text
-./a.out main.s
+./a.out main.S
 usage:		.asciz	"File name must be given."
 badopen:	.asciz	"Open file failed"
 noline:		.asciz	"Allocating line buffer failed."
@@ -245,7 +247,7 @@ File name must be given.
 Here is the error of specifying a bad file name:
 
 ```text
-./a.out
+./a.out file_name_that_does_not_exist
 Open file failed
 ```
 
@@ -262,7 +264,7 @@ On the Mac, `leaks` will be used for your testing.
 
 ## Partner rules
 
-You can work solo or with a partner.
+You can work with a partner.
 
 ## What to hand in
 
