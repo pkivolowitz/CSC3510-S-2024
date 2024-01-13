@@ -19,9 +19,9 @@ should try to match my output letter-for-letter. In fact, here is my
 text for you to use:
 
 ```text
-head_address:	.asciz	"head points to: %x\n"
-node_info:		.asciz	"node at 0x%8x contains payload: %lu next: 0x%8x\n"
-bad_malloc:		.asciz	"malloc() failed\n"
+head_address:   .asciz  "head points to: %x\n"
+node_info:      .asciz  "node at 0x%8x contains payload: %lu next: 0x%8x\n"
+bad_malloc:     .asciz  "malloc() failed\n"
 ```
 
 ### IMPORTANT
@@ -176,7 +176,7 @@ This can be hard to get right so I will provide a working example:
 #if defined(__APPLE__)
         PUSH_R      x3
         PUSH_P      x1, x2
-		CRT	        printf
+        CRT         printf
         add         sp, sp, 32
 #else
         bl          printf
