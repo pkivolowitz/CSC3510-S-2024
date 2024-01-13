@@ -300,7 +300,7 @@ Don't use the console directly. From time to time, the system burbles
 text to this console, potentially messing up your work. ssh in instead.
 You have been warned.
 
-## For every assembly language project
+## For the FIRST VM Project
 
 You, by now, have installed the VS Code plug-ins specified above.
 
@@ -324,4 +324,31 @@ To initialize the SSH plug-in:
 
 * It will think for a bit and the first time, will install some stuff
 
-* 
+* You can close this window as you have completed the set up for
+VS Code access to the VM
+
+## For EVERY VM Project After The Above
+
+If you did the above, you have saved a connection to the ARM VM.
+
+To edit, build, etc. do the following:
+
+* Start up the VM.
+
+* Start VS Code
+
+* Hit F1
+
+* Select Remove-SSH Connect to Host...
+
+* Select Localhost
+
+* Enter the password - it is the letter "a"
+
+* You will now see the "Open Folder" - click it
+
+* Select "/home/user"
+
+* Enter the password again
+
+* Operate VS Code normally

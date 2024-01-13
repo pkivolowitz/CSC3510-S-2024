@@ -25,6 +25,8 @@ MAIN
 
             // Restore x29 and x30 to incoming values and return 0
             // from main().
+            // NOTE: This code uses the macro suite for apple / linux
+            // convergence.
 
             POP_P       x29, x30
             mov         w0, wzr
@@ -35,5 +37,4 @@ MAIN
 
 change_me:  .asciz       "Replace This With Your Name"
 
-        
             .end
