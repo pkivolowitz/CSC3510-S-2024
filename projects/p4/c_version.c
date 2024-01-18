@@ -32,7 +32,7 @@ double IntegerPower(double b, int e) {
 
 
 int main(int argc, char ** argv) {
-    double sin = 0.0;
+    double cosine = 1.0;
 
 	if (argc != 3) {
 		fprintf(stderr, "Two numerical arguments must be given.\n");
@@ -49,20 +49,20 @@ int main(int argc, char ** argv) {
 
     double r_angle = D2R(angle);
 
-    double toggle = 1.0;
-    for (int term = 0, base = 1; term < terms; term++, base += 2) {
+    double toggle = -1.0;
+    for (int term = 0, base = 2; term < terms; term++, base += 2) {
 		if (toggle > 0) {
-			printf("%+03.8e + %+03.8e / %+03.8e [term %2d is %+03.8e]\n", sin, IntegerPower(r_angle, base),
+			printf("%+03.8e + %+03.8e / %+03.8e [term %2d is %+03.8e]\n", cosine, IntegerPower(r_angle, base),
 				   Factorial(base), term + 1, toggle * IntegerPower(r_angle, base) / Factorial(base));
 		} else {
-			printf("%+03.8e - %+03.8e / %+03.8e [term %2d is %+03.8e]\n", sin, IntegerPower(r_angle, base),
+			printf("%+03.8e - %+03.8e / %+03.8e [term %2d is %+03.8e]\n", cosine, IntegerPower(r_angle, base),
 				   Factorial(base), term + 1, toggle * IntegerPower(r_angle, base) / Factorial(base));
 		}
-		sin += toggle *
+		cosine += toggle *
 			   IntegerPower(r_angle, base) / Factorial(base);
         toggle = toggle * -1;
 	}
-	printf("The sine of %0.4f degrees is %0.10f.\n", angle, sin);
+	printf("The cosine of %0.4f degrees is %0.10f. Error: %0.10f\n", angle, cosine, cos(r_angle) - cosine);
 
     return 0;
 }
