@@ -24,31 +24,6 @@ node_info:      .asciz  "node at 0x%8x contains payload: %lu next: 0x%8x\n"
 bad_malloc:     .asciz  "malloc() failed\n"
 ```
 
-### IMPORTANT
-
-The following is deprecated. Ignore it.
-
-~~Modern Linux systems have Address Space Randomization enabled by
-default. This is a security mechanism whereby the layout in memory of an
-application is randomized. Without the following step, your output will
-NOT match mine because the addresses returned by your `malloc()` will
-not match mine due to randomization.~~
-
-The following is deprecated. Ignore it.
-
-```text
-$ su
-<<enter the root password - it is 'a' without the quotes>>
-# echo 0 > /proc/sys/kernel/randomize_va_space
-# exit
-```
-
-The following is deprecated. Ignore it.
-
-~~This must be done just once for the lifetime of the course. If you want
-to reenable Address Space Randomization, change the 0 to 2 in the above
-steps.~~
-
 ## The node
 
 ```c++

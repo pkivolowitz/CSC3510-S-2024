@@ -413,12 +413,11 @@ long.
 
 ## Partner rules
 
-All work is solo. Feel free to discuss approaches in any size grouping
-you wish. But no code sharing.
+Work with a partner.
 
 ## Due Date
 
-This project is due on the last day of classes (11:59 PM on May 19).
+This project is due on the last day of classes at 11:59 PM.
 
 ## Comment about testing your code
 
