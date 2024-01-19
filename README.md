@@ -10,29 +10,26 @@ years (ten at UW-Madison and nine at Carthage College). They continues
 to teach two highly specialized courses at Carthage: CSC4730 - Operating
 Systems and CSC3510 - Computer Organization.
 
-*They will continue doing so only as long as they enjoy it.*
-
 In addition to their years in academia, Professor Kivolowitz enjoyed a
 more than 40 year career as an entrepreneur and inventor mostly in the
-field of visual effects for motion pictures and television. They have
-been awarded with two Emmy Awards and an Academy Award for their work.
+field of digital visual effects for motion pictures and television. They
+have been awarded with two Emmy Awards and an Academy Award for their
+inventions.
 
 The digressions they will make constitute significant value. Professor
 Kivolowitz has had a passion for Computer Science for 50 years, long
 enough to posses **lived** experience from the late dawn / early
 adolescence of computing.
 
-*So pay some freaking attention when the old boomer rants.*
+*So pay attention and let Grandpa rant.*
 
 ## Course Overview and Introduction
 
 This course is entitled Computer Organization. This classically suggests
 we'll start with *and* and *or* logic gates and build our way up to a
-simple computer. This is fine if you are going to be an EE.
-
-Electrical engineering is not the focus of this Computer Science
-program. Software excellence is. This is also fine if you're stuck in
-the past.
+simple computer. This is fine if you are going to be an EE. Electrical
+engineering is not the focus of this Computer Science program. Software
+excellence is.
 
 This course presents Computer Organization from the perspective of an
 astute and sagacious software developer. More deeply, this course is
@@ -42,10 +39,13 @@ perseverance and **discipline**.
 
 It's one thing to develop software while sipping a Venti Iced Caramel
 Macchiato made with Blonde Espresso Upside Down 1/2 Vanilla Syrup 1/2
-Dark Caramel Syrup Topped with Salted Caramel in Stratos, Elysium or
-Zalem.
+Dark Caramel Syrup Topped with Salted Caramel in beautiful Stratos,
+Elysium or Zalem.
 
-It's another thing to code on Crematoria, LV-426 or Ceti Alpha V.
+It's another thing to code on Crematoria, LV-426 or Ceti Alpha V. By
+understanding the intimate interplay between hardware and software in an
+unforgiving environment, you are more likely to outshine your
+post-Carthage competition.
 
 ### This is a Required Course
 
@@ -62,11 +62,11 @@ perspective of the *astute* and *sagacious* software developer.
 
 As a result of taking this course you will be:
 
-* quite proficient and knowledgeable of the ARM V8 64-bit ISA
-(Instruction Set Architecture).
+* proficient and knowledgeable of the ARM V8 64-bit ISA (Instruction Set
+Architecture).
 
 * knowledgeable of the ramifications of choices that you make in higher
-level languages on performance.
+level languages on the performance of the resulting system.
 
 * knowledgeable of number formats and operations.
 
@@ -118,6 +118,9 @@ available within 24 hours of a project's due date. This prohibition is
 imposed to encourage good working habits including but not limited to
 starting work early / working steadily. This is not intended punitively.
 
+Help will always be available during office hours that coincide with the
+weekly BBQ.
+
 ## Texts
 
 Primary: [My Assembly Language
@@ -140,8 +143,8 @@ Ancillary (These are listed in order of usability / importance):
 
 ## Readings
 
-There are no assigned readings in this class. Daddy's not spoon feeding
-you by telling you what to read and when. I *will* often make
+There are no assigned readings in this class. Grandpa's not spoon
+feeding you by telling you what to read and when. I *will* often make
 suggestions. Take these suggestions seriously. Not assigning reading is
 intended to mimic real life as a software developer. Nobody holds your
 hand. Preparing you for your post-Carthage life is appropriate for this
@@ -238,34 +241,38 @@ Attendance will be taken at nearly every class. The only exceptions will
 be when I am so excited to get down to business, that I forget to take
 it.
 
-You get 6 free absences. After that each absence will remove 1 percent
-from your aggregate score at the end of the term. All absences are
-treated equally. That is, there are no "excused" absences.
+You get 6 free absences. After that each absence will remove 2 (two)
+percent from your aggregate score at the end of the term.
+
+*All absences are treated equally. That is, there are no "excused"
+absences.*
 
 The number of free absences equates to three weeks of missed class time
 so it is unlikely you'll exceed this and incur a penalty.
 
-Should a long-term absence due to uncontrollable circumstances become
+Should a *long-term* absence due to uncontrollable circumstances become
 necessary, please speak to me as soon as possible.
 
 ## Arriving Late
 
-Once attendance has been taken, anyone arriving after than will be
-counted as absent. Generally, attendance will end between five and ten
-minutes after the official start of class.
+Anyone arriving after attendance has been completed will be counted as
+absent. Generally, attendance will end between ten to fifteen minutes
+after the official start of class. Do not depend upon this estimate
+because it will vary from class period to class period.
 
 ## Leaving Early
 
 No, your coach cannot force you to leave class early to make practice.
-This comes directly from the current Athletic Director. If you are
-friends with persons arriving at practice before 4 PM, they do not have
-afternoon classes or are choosing to put their extra-curricular sports
-ahead of the **REST OF THEIR LIVES**.
+This comes directly from the current Athletic Director. 
+
+If you are friends with persons arriving at practice before 4 PM, they
+do not have late afternoon classes or are choosing to put their
+extra-curricular sports ahead of the **REST OF THEIR LIVES**.
 
 ## Warmups
 
 There are two warmup exercises that are graded and are included in your
-final grade.
+final score.
 
 The first is an essay. It is already assigned and is due 2/1/2024 at
 11:59 PM.
@@ -282,7 +289,8 @@ You will be required to write an essay as part of class. It is found
 
 ### Build Code
 
-
+See the [install](./install.md) guide and then the [warmup
+specification](./warmup/README.md).
 
 ## Projects
 
@@ -296,6 +304,12 @@ Projects contribute 82 percent of your final grade.
 
 | # | Project                             | Weight  | Partner |
 | - | -------                             | ------: | ------- |
+| 1 | Read a Byte, Write a Byte           | 60      | No      |
+| 2 | Sorted Singly Linked List           | 80      | No      |
+| 3 | Tail                                | 80      | Yes     |
+| 4 | Cosine Using Taylor Series          | 70      | No      |
+| 5 | NEON Intrinsics and Threading       | 70      | No      |
+| 6 | memcpy                              | 80      | Yes     |
 
 ### Project Partners
 
@@ -346,10 +360,10 @@ employment. Hand in what you have... it's better than a zero.
 
 | Gradable Component | Weight  | Notes   |
 | ------------------ | ------: | -----   |
-| Attendance         | 10 | |
-| Warmups            |  3 | |
-| Essay              |  5 | |
-| Projects           | 82 | |
+| Attendance         | 10      |         |
+| Warmups            |  3      |         |
+| Essay              |  5      |         |
+| Projects           | 82      |         |
 
 There is very little likelihood a curve will be applied in computing
 your final grade.
@@ -396,8 +410,6 @@ shall receive an F in the course.
 
 The decision of the instructor is final.
 
-## Bonus Materials
-
 ## General statement about "help"
 
 Apart from lecture, I will not "just give you the answer." Rather, you
@@ -408,10 +420,14 @@ meaningful "gift" to you from me.
 
 ### Jishnu Mukerjee, Senior Systems Architect at Hewlett-Packard
 
+![Jishnu](./jm.jpeg)
+
 When I was an undergraduate, Jishnu Mukerjee was the graduate student
 who was in charge our department's
 [PDP-11/60](<https://en.wikipedia.org/wiki/PDP-11>). It ran an early
-version of Unix, V6 to be exact... sound familiar?
+version of Unix, V6 to be exact.
+
+![PDP-11/60](./pdp11-60.jpeg)
 
 The first time I had a question, I asked Jishnu and he answered it.
 
