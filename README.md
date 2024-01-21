@@ -308,7 +308,7 @@ Projects contribute 82 percent of your final grade.
 | 2 | Sorted Singly Linked List           | 80      | No      |
 | 3 | Tail                                | 80      | Yes     |
 | 4 | Cosine Using Taylor Series          | 70      | No      |
-| 5 | NEON Intrinsics and Threading       | 70      | No      |
+| 5 | NEON Intrinsics                     | 70      | No      |
 | 6 | memcpy                              | 80      | Yes     |
 
 ### Project Partners
