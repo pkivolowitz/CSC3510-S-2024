@@ -8,7 +8,10 @@ float Magnitude(float32x4_t & v) {
 }
 ```
 
-This is, of course, Euclidean distance in 4D. The above source code includes 4 multiplies and 3 additions plus the sqrt. Add to this complexity, the number of loads needed to get the four components into registers.
+This is, of course, Euclidean distance in 4D. The above source code
+includes 4 multiplies and 3 additions plus the sqrt. Add to this
+complexity, the number of loads needed to get the four components into
+registers.
 
 ## No SIMD
 
@@ -63,13 +66,17 @@ float32x4_t v = {1, 2, 3, 4};
 
 ## Line 1
 
-This instruction dereferences the *reference* to `v` which is a `float32x4_t` (i.e. `float a[4]`). After this instruction, `q0` contains all four floats from `v`.
+This instruction dereferences the *reference* to `v` which is a
+`float32x4_t` (i.e. `float a[4]`). After this instruction, `q0` contains
+all four floats from `v`.
 
 `q0` now contains `{1, 2, 3, 4}`.
 
 ## Line 2
 
-This instruction multiplies the four floats in the third operand by the four floats in the second operand and places the results in the first operand.
+This instruction multiplies the four floats in the third operand by the
+four floats in the second operand and places the results in the first
+operand.
 
 `q0` now contains `{1, 4, 9, 16}`.
 
@@ -88,7 +95,8 @@ v[1] = v[3] = v[2] + v[3];
 
 ## Line 4
 
-The v's have been summed up in pairs, now call the same instruction again to complete the summation.
+The v's have been summed up in pairs, now call the same instruction
+again to complete the summation.
 
 ```c++
 v[0] = v[2] = v[0] + v[1];
@@ -99,10 +107,12 @@ v[1] = v[3] = v[2] + v[3];
 
 ## Line 5
 
-This instruction takes the square root of the least significant single precision float (they're all the same value).
+This instruction takes the square root of the least significant single
+precision float (they're all the same value).
 
 `s0` contains the answer of: `5.47723`.
 
 ## Summary
 
-For many many algorithms, a sprinkling of SIMD instructions can provide a speed up, possibly a large one.
+For many many algorithms, a sprinkling of SIMD instructions can provide
+a speed up, possibly a large one.
