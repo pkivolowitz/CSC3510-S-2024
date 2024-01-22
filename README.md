@@ -280,7 +280,7 @@ The first is an essay. It is already assigned and is due 2/1/2024 at
 The second is to be completed after you install the environment we will
 be using. The exercise is simply to modify some source code which is
 supplied to you, build it, run it, take a screen shot of it. Submit the
-screen shot. This is already assigned as is due on 2/6/2024.
+screen shot. This is already assigned as is due on 2/8/2024.
 
 ### Essay
 
