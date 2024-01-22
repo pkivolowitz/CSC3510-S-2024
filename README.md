@@ -420,14 +420,24 @@ meaningful "gift" to you from me.
 
 ### Jishnu Mukerjee, Senior Systems Architect at Hewlett-Packard
 
-![Jishnu](./jm.jpeg)
+<figure>
+  <img src="./jm.jpeg" style="width:40%;">
+  <figcaption style="width:40%;">Jishnu Mukerji</figcaption>
+</figure>
 
 When I was an undergraduate, Jishnu Mukerjee was the graduate student
 who was in charge our department's
 [PDP-11/60](<https://en.wikipedia.org/wiki/PDP-11>). It ran an early
 version of Unix, V6 to be exact.
 
-![PDP-11/60](./pdp11-60.jpeg)
+<figure>
+  <img src="./pdp11-60.jpeg" style="width:100%;">
+  <figcaption style="width:100%;">A representative image of a
+  PDP 11/60 with two RK05 (2.5 megabyte) hard disk drives and an LA120
+  console. My CS Department received an RK05 disk pack from Ken Thompson
+  in the mail with a hand written note on it. "Here's you Unix
+  distribution. Love, Ken". The Department also had a DecTape</figcaption>
+</figure>
 
 The first time I had a question, I asked Jishnu and he answered it.
 
