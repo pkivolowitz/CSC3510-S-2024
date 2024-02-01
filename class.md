@@ -10,6 +10,9 @@
 
 * Questions
 
+* [Recording](https://carthage-edu.zoom.us/rec/share/gCGnpDD7wPHVZNwrTVYeSL_Yhsr1ci4nUyF2iasgwqrgVGV7D3hJnfKyDNktwvRS.xzYQFui2EmpOi-F1)
+  
+
 ## Week 2 - 2/6 2/8
 
 * Binary
