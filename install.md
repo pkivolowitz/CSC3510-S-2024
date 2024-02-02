@@ -3,6 +3,8 @@
 The page describes how to install the environment needed for programming
 in ARM AARCH64 assembly language.
 
+[Windows Demo](https://youtu.be/8-U7VUypYhY)
+
 ## Our platform - emulated Cortex-A53's
 
 The emulated machines will be command-line only. A good development
