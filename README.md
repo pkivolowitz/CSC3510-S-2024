@@ -156,6 +156,10 @@ in the book, you are expected to explain to me what you read and
 articulate what you found unclear. This step is take to encourage good
 working habits on your part and is not punitive.
 
+## Recordings
+
+* [2/1/2024](https://carthage-edu.zoom.us/rec/share/gCGnpDD7wPHVZNwrTVYeSL_Yhsr1ci4nUyF2iasgwqrgVGV7D3hJnfKyDNktwvRS.xzYQFui2EmpOi-F1)
+  
 ### Topics Covered
 
 The following are the topics which we can expect to be covered. This
