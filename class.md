@@ -12,8 +12,14 @@
 
 * [Recording](https://carthage-edu.zoom.us/rec/share/gCGnpDD7wPHVZNwrTVYeSL_Yhsr1ci4nUyF2iasgwqrgVGV7D3hJnfKyDNktwvRS.xzYQFui2EmpOi-F1)
   
-
 ## Week 2 - 2/6 2/8
+
+* [Apple Silicon](<https://youtu.be/uPXzE_XCZeg>)
+
+* [Windows](<https://youtu.be/8-U7VUypYhY>)
+
+* Intel Mac - get the distro, get QEMU, follow instructions for Windows
+  except use your plain old terminal instead of WSL.
 
 * Binary
 
