@@ -14,6 +14,8 @@
   
 ## Week 2 - 2/6 2/8
 
+* 1 - 1 - NA - NA - NA
+
 * [Apple Silicon](<https://youtu.be/uPXzE_XCZeg>)
 
 * [Windows](<https://youtu.be/8-U7VUypYhY>)
@@ -32,6 +34,8 @@
 * Registers
 
   * Integer Registers w & x
+
+  * *Up to this point was Tuesday 2/6. Thursday's class follows.*
 
   * Floating Point Registers ***h***, s, d, v & q
 
@@ -54,6 +58,8 @@
     * Pipelined Execution
 
 ## Week 3 - 2/13 2/15
+
+* 0 / 0 / 0 / 0 / 0
 
 ## Week 4 - 2/20 2/22
 
