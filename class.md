@@ -35,9 +35,17 @@
 
   * Integer Registers w & x
 
+  * Why Have Registers
+
+    * Speed of Processors Relative to RAM
+
   * *Up to this point was Tuesday 2/6. Thursday's class follows.*
 
-  * Floating Point Registers ***h***, s, d, v & q
+  * Why Have Registers (Continued)
+
+    * Steps Needed to Execute an Instruction
+
+    * Pipelined Execution
 
   * Special Registers
 
@@ -49,13 +57,9 @@
 
     * Link Register - x30
 
-  * Why Have Registers
+  * Floating Point Registers ***h***, s, d, v & q
 
-    * Steps Needed to Execute an Instruction
-
-    * Speed of Processors Relative to RAM
-
-    * Pipelined Execution
+  * Floating Point Construction
 
 ## Week 3 - 2/13 2/15
 
