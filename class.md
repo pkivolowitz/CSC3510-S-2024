@@ -16,6 +16,8 @@
 
 * 1 - 1 - NA - NA - NA
 
+* [Tuesday's Recording](https://carthage-edu.zoom.us/rec/share/BIabiU2_JVNuvGPhk7KdUooVDXMvmxfWz_sGvCKyzjl1EJM3WSwXriWHsn8aDD-m.CQ53ty-hP5J2Y7R2)
+
 * [Apple Silicon](<https://youtu.be/uPXzE_XCZeg>)
 
 * [Windows](<https://youtu.be/8-U7VUypYhY>)
