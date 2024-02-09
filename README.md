@@ -129,6 +129,8 @@ work in progress.
 
 Ancillary (These are listed in order of usability / importance):
 
+0. [Cheat Sheet](https://courses.cs.washington.edu/courses/cse469/18wi/Materials/arm64.pdf)
+
 1. [ARM V8-A Reference
    Manual](<https://github.com/pkivolowitz/asm_book/blob/main/reference_material/armv8_arm.pdf>)
 
