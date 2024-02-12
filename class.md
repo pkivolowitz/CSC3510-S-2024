@@ -18,6 +18,8 @@
 
 * [Tuesday's Recording](https://carthage-edu.zoom.us/rec/share/BIabiU2_JVNuvGPhk7KdUooVDXMvmxfWz_sGvCKyzjl1EJM3WSwXriWHsn8aDD-m.CQ53ty-hP5J2Y7R2)
 
+* [Thursday's Recording](https://carthage-edu.zoom.us/rec/share/LqMZ9CBBG5Pm_Q4Qu2D9gddOjYPpL1r1HdWri_NH11u8WW4lJkvqtIpsdRSZ7CcH.AY_32gyXg9AW8LMk)
+
 * [Apple Silicon](<https://youtu.be/uPXzE_XCZeg>)
 
 * [Windows](<https://youtu.be/8-U7VUypYhY>)
