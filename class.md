@@ -45,21 +45,11 @@
 
   * *Up to this point was Tuesday 2/6. Thursday's class follows.*
 
-  * Why Have Registers (Continued)
-
-    * Steps Needed to Execute an Instruction
-
-    * Pipelined Execution
-
   * Special Registers
 
     * Program Counter - pc
 
     * Stack Pointer - sp
-
-    * Frame Pointer - x29
-
-    * Link Register - x30
 
   * Floating Point Registers ***h***, s, d, v & q
 
@@ -68,6 +58,36 @@
 ## Week 3 - 2/13 2/15
 
 * 0 / 0 / 0 / 0 / 0
+
+  * Floating Point Registers ***h***, s, d, v & q
+
+  * Floating Point Construction
+
+    * Floats / Doubles are approximations
+
+    * Normalized scientific notation
+
+      * Sign
+
+      * Exponent
+
+      * Mantissa
+
+    * Single Precision - how above are implemented
+
+    * Double Precision - how above are implemented
+
+  * Why Have Registers (Continued)
+
+    * Steps Needed to Execute an Instruction
+
+    * Pipelined Execution
+
+  * Special Registers
+
+    * Frame Pointer - x29
+
+    * Link Register - x30
 
 ## Week 4 - 2/20 2/22
 
