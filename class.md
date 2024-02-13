@@ -14,8 +14,6 @@
   
 ## Week 2 - 2/6 2/8
 
-* 1 - 1 - NA - NA - NA
-
 * [Tuesday's Recording](https://carthage-edu.zoom.us/rec/share/BIabiU2_JVNuvGPhk7KdUooVDXMvmxfWz_sGvCKyzjl1EJM3WSwXriWHsn8aDD-m.CQ53ty-hP5J2Y7R2)
 
 * [Thursday's Recording](https://carthage-edu.zoom.us/rec/share/LqMZ9CBBG5Pm_Q4Qu2D9gddOjYPpL1r1HdWri_NH11u8WW4lJkvqtIpsdRSZ7CcH.AY_32gyXg9AW8LMk)
@@ -57,33 +55,41 @@
 
 ## Week 3 - 2/13 2/15
 
-* 0 / 0 / 0 / 0 / 0
+* Floating Point Registers ***h***, s, d, v & q
 
-  * Floating Point Registers ***h***, s, d, v & q
+  * h are half floats - not used much - are least significant half of s
 
-  * Floating Point Construction
+  * s are single precision values - there are 2 to a d register
 
-    * Floats / Doubles are approximations
+  * d are double precision values - are least significant half of v
 
-    * Normalized scientific notation
+  * v is a vector of something
 
-      * Sign
+  * q is a single 128 bit value
 
-      * Exponent
+* Floating Point Construction
 
-      * Mantissa
+  * Floats / Doubles are approximations
 
-    * Single Precision - how above are implemented
+  * Normalized scientific notation
 
-    * Double Precision - how above are implemented
+    * Sign
 
-  * Why Have Registers (Continued)
+    * Exponent
 
-    * Steps Needed to Execute an Instruction
+    * Mantissa
 
-    * Pipelined Execution
+  * Single Precision - how above are implemented
 
-  * Special Registers
+  * Double Precision - how above are implemented
+
+* Why Have Registers (Continued)
+
+  * Steps Needed to Execute an Instruction
+
+  * Pipelined Execution
+
+  * Special Registers (other than the *really* special registers)
 
     * Frame Pointer - x29
 
