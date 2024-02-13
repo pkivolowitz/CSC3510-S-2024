@@ -89,6 +89,12 @@
 
     * Link Register - x30
 
+  * Aside:
+
+    * Bit fields in C/C++
+
+    * Unions in C/C++
+
 ## Week 4 - 2/20 2/22
 
 ## Week 5 - 2/27 2/29
