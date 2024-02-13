@@ -57,15 +57,16 @@
 
 * Floating Point Registers ***h***, s, d, v & q
 
-  * h are half floats - not used much - are least significant half of s
+  * h are half floats - not used much - are least significant half of
+    s's
 
-  * s are single precision values - there are 2 to a d register
+  * s are single precision values - least significant half of d's
 
-  * d are double precision values - are least significant half of v
+  * d are double precision values - are least significant half of v's
 
-  * v is a vector of something
+  * v's are a vector of something
 
-  * q is a single 128 bit value
+  * q's are a single 128 bit value
 
 * Floating Point Construction
 
