@@ -49,10 +49,6 @@
 
     * Stack Pointer - sp
 
-  * Floating Point Registers ***h***, s, d, v & q
-
-  * Floating Point Construction
-
 ## Week 3 - 2/13 2/15
 
 * Floating Point Registers ***h***, s, d, v & q
