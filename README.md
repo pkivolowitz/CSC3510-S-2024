@@ -3,6 +3,8 @@
 This document serves as both the course's syllabus and its main web
 page.
 
+[Listing of Day by Day Material and Video Links](./class.md)
+
 ## About the Professor
 
 Professor Perry Kivolowitz has retired from full time teaching after 19
