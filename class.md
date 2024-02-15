@@ -51,6 +51,8 @@
 
 ## Week 3 - 2/13 2/15
 
+* [Tuesday's Recording](https://carthage-edu.zoom.us/rec/share/m2Hh93gP3ZE2bPsgYW1r_sRkpE2cMBQ11SLqFFQReEnM9xfIGDyAoH0Njgu36RVE.It41YUZKN5IGlR-6)
+
 * Floating Point Registers ***h***, s, d, v & q
 
   * h are half floats - not used much - are least significant half of
@@ -86,19 +88,31 @@
 
   * Pipelined Execution
 
-  * Special Registers (other than the *really* special registers)
+* Aside:
 
-    * Frame Pointer - x29
+  * Bit fields in C/C++
 
-    * Link Register - x30
+  * Unions in C/C++
 
-  * Aside:
+* **Above this was covered Tuesday. Below this covered Thursday.**
 
-    * Bit fields in C/C++
+* Special Registers (other than the *really* special registers)
 
-    * Unions in C/C++
+  * Frame Pointer - x29
+
+  * Link Register - x30
+
+* Assembly Language!
 
 ## Week 4 - 2/20 2/22
+
+* **Tuesday**
+
+* Assembly Language
+
+* **Thursday**
+
+* Assembly Language
 
 ## Week 5 - 2/27 2/29
 
