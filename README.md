@@ -276,7 +276,7 @@ because it will vary from class period to class period.
 ## Leaving Early
 
 No, your coach cannot force you to leave class early to make practice.
-This comes directly from the current Athletic Director. 
+This comes directly from the current Athletic Director.
 
 If you are friends with persons arriving at practice before 4 PM, they
 do not have late afternoon classes or are choosing to put their
@@ -434,7 +434,7 @@ meaningful "gift" to you from me.
 ### Jishnu Mukerjee, Senior Systems Architect at Hewlett-Packard
 
 <figure>
-  <img src="./jm.jpeg" style="width:40%;">
+  <img alt="Jishnu" src="./jm.jpeg" style="width:40%;">
   <figcaption style="width:40%;">Jishnu Mukerji</figcaption>
 </figure>
 
@@ -444,7 +444,7 @@ who was in charge our department's
 version of Unix, V6 to be exact.
 
 <figure>
-  <img src="./pdp11-60.jpeg" style="width:100%;">
+  <img alt="PDP11/60" src="./pdp11-60.jpeg" style="width:100%;">
   <figcaption style="width:100%;">A representative image of a
   PDP 11/60 with two RK05 (2.5 megabyte) hard disk drives and an LA120
   console. My CS Department received an RK05 disk pack from Ken Thompson
