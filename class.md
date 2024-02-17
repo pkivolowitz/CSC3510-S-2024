@@ -53,6 +53,8 @@
 
 * [Tuesday's Recording](https://carthage-edu.zoom.us/rec/share/m2Hh93gP3ZE2bPsgYW1r_sRkpE2cMBQ11SLqFFQReEnM9xfIGDyAoH0Njgu36RVE.It41YUZKN5IGlR-6)
 
+* [Thursday's Recording](https://carthage-edu.zoom.us/rec/share/Tahei9ggPeGgHXR8u5PNoWWqoAu8y-n24UhkV6MsttcBLybkpi9VvCtg07Mlmjo.UxFTQLnFyWFsw6NI)
+
 * Floating Point Registers ***h***, s, d, v & q
 
   * h are half floats - not used much - are least significant half of
@@ -102,7 +104,39 @@
 
   * Link Register - x30
 
+* How linking works - what is an object file
+
 * Assembly Language!
+
+  * `bl` branch with link (x30)
+
+  * `ret` return (uses x30)
+
+  * `and` bitwise and
+
+  * `cbnz` compare and branch if non-zero
+
+  * `cmp` compare (is actually a subtraction)
+
+  * `b` unconditional branch
+
+  * `.p2align` power of 2 alignment
+
+  * `.text` what comes next is code
+
+  * `.global` add "I have ___" to object file TOC
+
+  * `str`, `stp`, `ldr`, `ldp` store to memory, load from memory
+
+  * `beq` branch if the previous `cmp` is zero
+
+  * `add` add two registers together and store result in a register
+
+  * `mov` copy a value into a register
+
+  * `.end` nothing else should come after this
+
+  * `.asciz` put an ASCII string with null terminator into memory
 
 ## Week 4 - 2/20 2/22
 
