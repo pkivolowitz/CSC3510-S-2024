@@ -140,15 +140,52 @@
 
 ## Week 4 - 2/20 2/22
 
+* [2/20/2024](https://carthage-edu.zoom.us/rec/share/Gicnfp6G6OhzH8PNYH-PHiH1asnrQyJ9FngDDsMn4kDSQ0norq8ZPauSqndIhhSw.REW5OvQilDVmd0pu)
+
+* [2/22/2024](https://carthage-edu.zoom.us/rec/share/wPMJ6kri71dzud08PjXUacfXQI0Fizsf-589opIOZniVHTgbxpxgvqJo1gL7GO92.R7n-8NPn69AMo_m6)
+
 * **Tuesday**
 
-* Assembly Language
+  * Assembly Language
+
+  * File descriptors
+
+  * system calls using CRT vs making them directly
 
 * **Thursday**
 
-* Assembly Language
+  * Assembly Language
+
+  * Going if, for, while, continue, break
 
 ## Week 5 - 2/27 2/29
+
+* **Tuesday**
+
+  * Review
+
+  * 3 essays left to grade, 17 P1 left to grade - been quite sick so
+  progress has been slow
+
+  * Discuss essay
+  
+  * Common biggest error seen so far in P1 is calling write assuming
+  that x0 through x7 are not corrupted.
+
+  * P2 is assigned
+
+  * Go over P2
+
+  * `nm` demonstrated to demonstrate the "toc" i.e. the symbol table
+  showing "have" and "need"
+
+  * demonstrate running `as` directly
+
+  * demonstrate running `cpp` directly
+
+  * demonstrate asking c++ to leave behind a .S file
+
+* **Thursday**
 
 ## Week 6 - 3/12 3/14
 
