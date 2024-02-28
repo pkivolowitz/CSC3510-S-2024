@@ -1,5 +1,6 @@
 		.text
 		.global		main
+        .p2align    2
 
 /*	InitRegs()
 
