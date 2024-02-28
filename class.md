@@ -164,13 +164,15 @@
 
   * Review
 
-  * 3 essays left to grade, 17 P1 left to grade - been quite sick so
+  * All essays graded. 17 P1 left to grade - been quite sick so
   progress has been slow
 
   * Discuss essay
   
   * Common biggest error seen so far in P1 is calling write assuming
   that x0 through x7 are not corrupted.
+
+    * Demonstrate `regs` a program designed to drive this point home.
 
   * P2 is assigned
 
@@ -184,6 +186,8 @@
   * demonstrate running `cpp` directly
 
   * demonstrate asking c++ to leave behind a .S file
+
+  * began discussion of structs
 
 * **Thursday**
 
