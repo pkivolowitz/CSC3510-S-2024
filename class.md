@@ -193,10 +193,12 @@
 
 * **Thursday**
 
+  * All P1 graded
+
   * Review
 
-  * P1 almost done grading
-
+  * What is x29
+  
   * malloc() - how it works
 
   * free() - how it works
