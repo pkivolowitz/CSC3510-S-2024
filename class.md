@@ -164,6 +164,8 @@
 
   * Review
 
+  * [2/27/2024](https://carthage-edu.zoom.us/rec/share/6YXA7XHpMNFnuMJIWwBWKQiwDxOoGOx6yaAyMNuEoWvW00rNFU7ObvYfqaZbd2Ag.OZ4as46lnkc81NS0)
+
   * All essays graded. 17 P1 left to grade - been quite sick so
   progress has been slow
 
@@ -190,6 +192,25 @@
   * began discussion of structs
 
 * **Thursday**
+
+  * Review
+
+  * P1 almost done grading
+
+  * malloc() - how it works
+
+  * free() - how it works
+
+  * **brief** introduction to virtual memory
+
+    * history - none, fixed, static relocation, dynamic relocation
+    (segmentation)
+
+    * paging
+
+    * linear page tables
+
+  * P2 questions
 
 ## Week 6 - 3/12 3/14
 
