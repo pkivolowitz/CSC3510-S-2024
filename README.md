@@ -185,6 +185,8 @@ working habits on your part and is not punitive.
 
 ### Topics Covered
 
+[Daily Content Covered Here](./class.md)
+
 The following are the topics which we can expect to be covered. This
 list may be incomplete and specific items on the list may be omitted
 subject to class pace.
