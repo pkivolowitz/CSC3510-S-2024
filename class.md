@@ -193,6 +193,8 @@
 
 * **Thursday**
 
+  * [2/29/2024](https://carthage-edu.zoom.us/rec/share/PZtFVTBvdLS4mrBxGoHUX5UPIfILniCZdpwr333EQwx2bB6jGLJhp6LnEzKH6xul.K_e5uRq7L5Uw6JyH)
+  
   * All P1 graded
 
   * Review
