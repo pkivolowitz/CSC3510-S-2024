@@ -220,6 +220,16 @@
 
 ## Week 6 - 3/12 3/14
 
+* **Tuesday**
+
+  Class canceled due to injury to instructor.
+
+* **Thursday**
+
+  * The Debugging Talk
+
+    [Recording](https://carthage-edu.zoom.us/rec/share/hhUJTYvsHf_BuZthgAlgYZh_eAt0GsR54Mge0G41qJWu8PaempyyqcK8uyCyDT-L.KPyZXmVRB3f5G_ns)
+
 ## Week 7 - 3/19 3/21
 
 ## Week 8 - 3/26 3/28

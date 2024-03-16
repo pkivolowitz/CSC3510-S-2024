@@ -183,6 +183,8 @@ working habits on your part and is not punitive.
 
 * [2/29/2024](https://carthage-edu.zoom.us/rec/share/PZtFVTBvdLS4mrBxGoHUX5UPIfILniCZdpwr333EQwx2bB6jGLJhp6LnEzKH6xul.K_e5uRq7L5Uw6JyH)
 
+* [3/14/2024](https://carthage-edu.zoom.us/rec/share/hhUJTYvsHf_BuZthgAlgYZh_eAt0GsR54Mge0G41qJWu8PaempyyqcK8uyCyDT-L.KPyZXmVRB3f5G_ns)
+
 ### Topics Covered
 
 [Daily Content Covered Here](./class.md)
@@ -250,6 +252,8 @@ subject to class pace.
   * in C and C++
 
   * Bit Bashing
+
+* Dialogs and Discourses on Debugging
 
 ## Environment
 
