@@ -97,8 +97,8 @@ Office Hours:
 
 | Day | Times |
 | --- | ----- |
-| M | 11 AM to 12 PM |
-| T | 11 AM to 12 PM |
+| M | ~~11 AM to 12 PM~~ 12 PM to 1 PM |
+| T | ~~11 AM to 12 PM~~ 12 PM to 1 PM |
 | BBQ | 7 PM to 9 PM |
 | F | 12 PM to 1 PM |
 
