@@ -232,6 +232,26 @@
 
 ## Week 7 - 3/19 3/21
 
+* **Tuesday**
+
+  * Review and guided coding
+
+  * [Recording](https://carthage-edu.zoom.us/rec/share/ZMsAJsFTX-MfGcuvuJ6vxoRagbEGs6Vn3apVyXceMsxurCg_6hzFirfXwovUyMAO.rtIADBzqUwNtevjh)
+
+* **Thursday**
+
+  * We begin introducing hardware concepts
+  
+  * Spinning Disks
+
+    * Speed and latencies
+
+    * Construction
+
+    * RAID (part 1)
+
+  * [Recording](https://carthage-edu.zoom.us/rec/share/qU6mW5A20HxPeUjb7PIiAVd9OSWKNUFiNhQBOeCFvoskZ-Vi1Ufaz9hxKAgjHA.9q3LbJ-th_-DG8xK)
+
 ## Week 8 - 3/26 3/28
 
 ## Week 9 - 4/2 4/4

@@ -185,6 +185,10 @@ working habits on your part and is not punitive.
 
 * [3/14/2024](https://carthage-edu.zoom.us/rec/share/hhUJTYvsHf_BuZthgAlgYZh_eAt0GsR54Mge0G41qJWu8PaempyyqcK8uyCyDT-L.KPyZXmVRB3f5G_ns)
 
+* [3/19/2024](https://carthage-edu.zoom.us/rec/share/zSpNzgFTtcpIxXHFDnMz2FIjPjYk1rOEAE6sPIuD3DvTUuTpJ6GyaR4iCqjnCs91.En2XOH0JUpipdRKx)
+
+* [3/21/2024](https://carthage-edu.zoom.us/rec/share/qU6mW5A20HxPeUjb7PIiAVd9OSWKNUFiNhQBOeCFvoskZ-Vi1Ufaz9hxKAgjHA.9q3LbJ-th_-DG8xK)
+
 ### Topics Covered
 
 [Daily Content Covered Here](./class.md)
