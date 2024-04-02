@@ -254,7 +254,37 @@
 
 ## Week 8 - 3/26 3/28
 
+* **Tuesday**
+
+   RAID (part 2)
+
+   Spaghetti Code
+
+   Review of Calling and Making "functions"
+
+  [Recording](https://carthage-edu.zoom.us/rec/share/Ef11YYgIrPhd4F_cYImMYXM1rXeaspz-cn0ebqrMztgAJtbN3m3BCRbsRKmQaK5_.Hcjq-D6UmvTK7yUR)
+
+* **Thursday**
+
+   No class.
+
 ## Week 9 - 4/2 4/4
+
+* **Tuesday**
+
+   Review
+
+   Review of calling Assembly from C++
+
+   Writing a recursive function. Example: factorial.
+
+   Demonstration of recursion using GDB.
+
+   SSDs
+
+   What is the "this" pointer?
+  
+* **Thursday**
 
 ## Week 10 - 4/9 4/11
 

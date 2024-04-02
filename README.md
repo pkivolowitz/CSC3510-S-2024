@@ -189,6 +189,8 @@ working habits on your part and is not punitive.
 
 * [3/21/2024](https://carthage-edu.zoom.us/rec/share/qU6mW5A20HxPeUjb7PIiAVd9OSWKNUFiNhQBOeCFvoskZ-Vi1Ufaz9hxKAgjHA.9q3LbJ-th_-DG8xK)
 
+* [3/26/2024](https://carthage-edu.zoom.us/rec/share/Ef11YYgIrPhd4F_cYImMYXM1rXeaspz-cn0ebqrMztgAJtbN3m3BCRbsRKmQaK5_.Hcjq-D6UmvTK7yUR)
+
 ### Topics Covered
 
 [Daily Content Covered Here](./class.md)
@@ -199,19 +201,25 @@ subject to class pace.
 
 * ARM V8 ISA
 
-  * Basic Instructions
+  * Basic Instructions <span
+   style="font-family:Wingdings">&#252;</span>
 
-  * Addressing Modes
+  * Addressing Modes <span
+   style="font-family:Wingdings">&#252;</span>
 
-  * Integer Math Instructions
+  * Integer Math Instructions <span
+   style="font-family:Wingdings">&#252;</span>
 
-  * Floating Point Math Instructions
+  * Floating Point Math Instructions <span
+   style="font-family:Wingdings">&#252;</span>
 
   * Conditional Instructions
 
-  * Branch Instructions
+  * Branch Instructions <span
+   style="font-family:Wingdings">&#252;</span>
 
-  * Branch With Link
+  * Branch With Link <span
+   style="font-family:Wingdings">&#252;</span>
 
   * Synchronization Instructions
 
@@ -219,35 +227,50 @@ subject to class pace.
 
 * Implementation of Control Structures
 
-  * if, if / else, if / else if
+  * if, if / else, if / else if <span
+   style="font-family:Wingdings">&#252;</span>
 
-  * while, for, do / until
+  * while, for, do / until <span
+   style="font-family:Wingdings">&#252;</span>
 
   * switch
 
-* `struct`
+* `struct` <span
+   style="font-family:Wingdings">&#252;</span>
 
-* arrays
+* arrays <span
+   style="font-family:Wingdings">&#252;</span>
 
-* Function Calls and Argument Passing
+* What is the "this" pointer?
+
+* Function Calls and Argument Passing <span
+   style="font-family:Wingdings">&#252;</span>
+
+* Recursion in Assembly language.
 
 * Variadic Functions
 
-* System Calls
+* System Calls <span
+   style="font-family:Wingdings">&#252;</span>
 
 * Cache Memory Systems
 
-* Rotating Disc Systems and Maybe, SSDs
+* Rotating Disc Systems and Maybe: SSDs <span
+   style="font-family:Wingdings">&#252;</span>
 
-* RAID Architectures
+* RAID Architectures <span
+   style="font-family:Wingdings">&#252;</span>
 
 * Bus Systems
 
-* Binary, Octal and Hexadecimal
+* Binary, Octal and Hexadecimal <span
+   style="font-family:Wingdings">&#252;</span>
 
-* Integers, Two's Complement Arithmetic
+* Integers, Two's Complement Arithmetic <span
+   style="font-family:Wingdings">&#252;</span>
 
-* IEEE 754 Floating Point Numbers
+* IEEE 754 Floating Point Numbers <span
+   style="font-family:Wingdings">&#252;</span>
 
 * Bitwise Operations
 
@@ -257,7 +280,8 @@ subject to class pace.
 
   * Bit Bashing
 
-* Dialogs and Discourses on Debugging
+* Dialogs and Discourses on Debugging <span
+   style="font-family:Wingdings">&#252;</span>
 
 ## Environment
 
