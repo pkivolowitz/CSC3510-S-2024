@@ -201,21 +201,21 @@ subject to class pace.
 
 * ARM V8 ISA
 
-  *  Basic Instructions
+  * Basic Instructions
 
-  * [x] Addressing Modes
+    * [x] Addressing Modes
 
-  * [x] Integer Math Instructions
+    * [x] Integer Math Instructions
 
-  * [x] Floating Point Math Instructions
+    * [x] Floating Point Math Instructions
 
-  * [ ] Conditional Instructions
+    * [ ] Conditional Instructions
 
-  * [x] Branch Instructions
+    * [x] Branch Instructions
 
-  * [x] Branch With Link
+    * [x] Branch With Link
 
-  * [ ] Synchronization Instructions
+    * [ ] Synchronization Instructions
 
 * [x] Registers Including Some Special Registers
 
@@ -227,7 +227,7 @@ subject to class pace.
 
   * [ ] switch
 
-* [x] `struct`
+  * [x] `struct`
 
 * [x] arrays
 
@@ -257,11 +257,11 @@ subject to class pace.
 
 * Bitwise Operations
 
-  * in ARM V8
+  * [ ] in ARM V8
 
-  * in C and C++
+  * [ ] in C and C++
 
-  * Bit Bashing
+  * [ ] Bit Bashing
 
 * [x] Dialogs and Discourses on Debugging
 
