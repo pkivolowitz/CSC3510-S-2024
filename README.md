@@ -191,6 +191,8 @@ working habits on your part and is not punitive.
 
 * [3/26/2024](https://carthage-edu.zoom.us/rec/share/Ef11YYgIrPhd4F_cYImMYXM1rXeaspz-cn0ebqrMztgAJtbN3m3BCRbsRKmQaK5_.Hcjq-D6UmvTK7yUR)
 
+* [4/2/2024](https://carthage-edu.zoom.us/rec/share/8A2hRIwtbEF50xdFiU34Se_H4VZdQez1gnTTwZGPuZD2w7OgZUVAGvyXeMAFi1tu.E4LtpxCdHjTuGios)
+
 ### Topics Covered
 
 [Daily Content Covered Here](./class.md)
@@ -235,7 +237,7 @@ subject to class pace.
 
 * [x] Function Calls and Argument Passing
 
-* [ ] Recursion in Assembly language.
+* [x] Recursion in Assembly language.
 
 * [ ] Variadic Functions
 

@@ -274,7 +274,9 @@
 
    Review
 
-   Review of calling Assembly from C++
+   Review of calling Assembly from C and C++.
+
+   Review of function calls and parameters.
 
    Writing a recursive function. Example: factorial.
 
@@ -282,11 +284,20 @@
 
    SSDs
 
-   What is the "this" pointer?
+   [Recording](https://carthage-edu.zoom.us/rec/share/8A2hRIwtbEF50xdFiU34Se_H4VZdQez1gnTTwZGPuZD2w7OgZUVAGvyXeMAFi1tu.E4LtpxCdHjTuGios)
   
 * **Thursday**
 
+   Review.
+
+   What is the "this" pointer?
+
+   Going over Project 4.
+
+   [Sample program](./code/example.S) doing floating point math.
+
 ## Week 10 - 4/9 4/11
+
 
 ## Week 11 - 4/16 4/18
 
