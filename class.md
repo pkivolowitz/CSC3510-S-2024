@@ -296,7 +296,14 @@
 
    [Sample program](./code/example.S) doing floating point math.
 
+   [Recording](https://carthage-edu.zoom.us/rec/share/bzRnBnOlf9kPp82i1KWGOA3iLrDAOvF074hhVP4eVQE4JEyFVOlEBZyUHBKUllNf.D8_PV0V-Jfid1aZS)
+
 ## Week 10 - 4/9 4/11
+
+* **Tuesday**
+
+* **Thursday**
+
 
 
 ## Week 11 - 4/16 4/18

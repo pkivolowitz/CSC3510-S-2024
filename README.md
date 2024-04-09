@@ -193,6 +193,8 @@ working habits on your part and is not punitive.
 
 * [4/2/2024](https://carthage-edu.zoom.us/rec/share/8A2hRIwtbEF50xdFiU34Se_H4VZdQez1gnTTwZGPuZD2w7OgZUVAGvyXeMAFi1tu.E4LtpxCdHjTuGios)
 
+* [4/4/2024](https://carthage-edu.zoom.us/rec/share/bzRnBnOlf9kPp82i1KWGOA3iLrDAOvF074hhVP4eVQE4JEyFVOlEBZyUHBKUllNf.D8_PV0V-Jfid1aZS)
+
 ### Topics Covered
 
 [Daily Content Covered Here](./class.md)
@@ -233,7 +235,7 @@ subject to class pace.
 
 * [x] arrays
 
-* [ ] What is the "this" pointer?
+* [x] What is the "this" pointer?
 
 * [x] Function Calls and Argument Passing
 
