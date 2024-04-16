@@ -119,20 +119,6 @@ four at a time. The type that represents this is: `float32x4_t`. Having
 the right type is necessary for type checking purposes but more
 importantly in this case, for computing the size (four floats).
 
-## Timing
-
-The idea is this:
-
-* Capture the current time (start)
-
-* Run all the iterations of one function
-
-* Capture the current time (end)
-
-* Subtract start from end to get the elapsed time
-
-* Divide by the number of iterations to get the average
-
 ## Setting expectations
 
 Apart from writing all the code given to you, the part that you are
