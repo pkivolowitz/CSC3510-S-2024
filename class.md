@@ -326,6 +326,23 @@
 
 * **Thursday**
 
+  Precomputing
+
+  * Factorials in detailed example
+
+  * Sin / Cos etc. in concept
+
+  * Interpolation - not exactly Comp Org but useful knowledge - all
+  in the context of pre-computation
+
+    * Nearest Neighbor
+
+    * Linear
+
+    * Quadratic using Lagrange Polynomials
+
+  * What's with float literals?
+
 ## Week 12 - 4/23 4/25
 
 * **Tuesday**
