@@ -195,6 +195,12 @@ working habits on your part and is not punitive.
 
 * [4/4/2024](https://carthage-edu.zoom.us/rec/share/bzRnBnOlf9kPp82i1KWGOA3iLrDAOvF074hhVP4eVQE4JEyFVOlEBZyUHBKUllNf.D8_PV0V-Jfid1aZS)
 
+* [4/9/2024](https://carthage-edu.zoom.us/rec/share/J0B-R4cQmnJ9iHPrGAiyLQ0bTLUukxiblTyjhY5uQPpDxuUN2MnJxgx3qCUxU9Bp.3jnR8_a0f5fWLQh1)
+
+* 4/11/2024 - no class due to illness
+
+* [4/16/2024](https://carthage-edu.zoom.us/rec/share/Te6p5i3C4L23IIDweGS4N5aFlNlx-PDM8Ik576QMH7NNfS_nkOryJjnhHUCiBZgZ.MFf0RyiMREDtY1cJ)
+
 ### Topics Covered
 
 [Daily Content Covered Here](./class.md)

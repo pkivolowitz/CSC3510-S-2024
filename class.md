@@ -302,14 +302,40 @@
 
 * **Tuesday**
 
+   [Recording](https://carthage-edu.zoom.us/rec/share/J0B-R4cQmnJ9iHPrGAiyLQ0bTLUukxiblTyjhY5uQPpDxuUN2MnJxgx3qCUxU9Bp.3jnR8_a0f5fWLQh1)
+
 * **Thursday**
 
-
+   No class due to illness.
 
 ## Week 11 - 4/16 4/18
 
+* **Tuesday**
+
+   Going over Project 5
+
+   Introduced SIMD and SIMD instructions
+
+   Please stop using direct system calls
+
+   Introduced Intrinsics
+
+   Discussion of which floating point registers are "safe"
+
+   [Recording](https://carthage-edu.zoom.us/rec/share/Te6p5i3C4L23IIDweGS4N5aFlNlx-PDM8Ik576QMH7NNfS_nkOryJjnhHUCiBZgZ.MFf0RyiMREDtY1cJ)
+
+* **Thursday**
+
 ## Week 12 - 4/23 4/25
 
+* **Tuesday**
+
+* **Thursday**
+
 ## Week 13 - 4/30 5/2
+
+* **Tuesday**
+
+* **Thursday**
 
 ## Week 14 - 5/7 5/9
