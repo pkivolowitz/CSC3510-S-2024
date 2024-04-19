@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <cstring>
 
 struct PPM {
     std::string magic_number;

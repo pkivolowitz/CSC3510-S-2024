@@ -19,10 +19,11 @@ void GetColorValue(ifstream & fin, int max_value, float * value) {
     string line;
     int v;
 
-    getline(fin, line);
-    stringstream ss(line);
-    ss >> v;
-    *value = float(v) / float(max_value);
+    if (getline(fin, line)) {
+        stringstream ss(line);
+        ss >> v;
+        *value = float(v) / float(max_value);
+    }
 }
 
 /*  PPM Reading and Writing for an ARM NEON Project
@@ -42,7 +43,6 @@ bool PPM::Load(string file_name) {
     long line_number = 1;
 
     if (fin.is_open()) {
-        fin.exceptions(ifstream::failbit | ifstream::badbit);
         try {
             // Magic Number
             getline(fin, magic_number);
@@ -80,8 +80,8 @@ bool PPM::Load(string file_name) {
                 long pc = 0; // short for pixel_counter
                 float * ptr = data;
 				// Load data. Must distinguish between good and bad EOF.
-                for (; pc < width * height; pc++) {
-                    GetColorValue(fin, max_value, ptr++);
+                for (; pc < width * height; pc++) {              
+					GetColorValue(fin, max_value, ptr++);
                     line_number++;
                     GetColorValue(fin, max_value, ptr++);
                     line_number++;
