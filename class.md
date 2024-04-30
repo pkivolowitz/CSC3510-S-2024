@@ -343,11 +343,17 @@
 
   * What's with float literals?
 
+  [Recording](https://carthage-edu.zoom.us/rec/share/qjG82kMQZZFxFSYwqLvpkRo-iE0XA22K44_lBksCPneknSXqpKgqGjxyE5CSbA6m.l1Ndtq6LQh8BD2Bd)
+
 ## Week 12 - 4/23 4/25
 
 * **Tuesday**
 
+[Recording](https://carthage-edu.zoom.us/rec/share/-PZc7qGLF78PmjLr33DvsYuOwHNKSEp_U4jyWZVFppvjeov9mKryGNNLmmQjd5WI.j5c3dYXAIwMVoYLD)
+
 * **Thursday**
+
+[Recording](https://carthage-edu.zoom.us/rec/share/mySGE-glxK4HIQ8_QaM3PTz9MkGct0BWWCa1tZzF_CuacMmRAy3ferKQwXCyU0nn.nvge08knT8jeMkPm)
 
 ## Week 13 - 4/30 5/2
 
