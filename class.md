@@ -1,5 +1,14 @@
 # Expected / Projected / Actual Class Progression
 
+## STUPID ZOOM UI DESIGN
+
+I apologize for the videos become out of sync towards the end of the
+semester. Stupidity on the part of Zoom is amazing. From one of the
+links here, you cannot get back to the video's title / date. That's
+right, you can't relate videos from here back to time / calendar.
+
+Unbelievable.
+
 ## Week 1 - 2/1
 
 * Syllabus
@@ -349,11 +358,17 @@
 
 * **Tuesday**
 
-[Recording](https://carthage-edu.zoom.us/rec/share/-PZc7qGLF78PmjLr33DvsYuOwHNKSEp_U4jyWZVFppvjeov9mKryGNNLmmQjd5WI.j5c3dYXAIwMVoYLD)
+  [Recording](https://carthage-edu.zoom.us/rec/share/-PZc7qGLF78PmjLr33DvsYuOwHNKSEp_U4jyWZVFppvjeov9mKryGNNLmmQjd5WI.j5c3dYXAIwMVoYLD)
 
 * **Thursday**
 
-[Recording](https://carthage-edu.zoom.us/rec/share/mySGE-glxK4HIQ8_QaM3PTz9MkGct0BWWCa1tZzF_CuacMmRAy3ferKQwXCyU0nn.nvge08knT8jeMkPm)
+  * Logic Gates
+
+  * Half Adder
+
+  * Full Adder
+
+  [Recording](https://carthage-edu.zoom.us/rec/share/mySGE-glxK4HIQ8_QaM3PTz9MkGct0BWWCa1tZzF_CuacMmRAy3ferKQwXCyU0nn.nvge08knT8jeMkPm)
 
 ## Week 13 - 4/30 5/2
 
