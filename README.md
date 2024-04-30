@@ -225,7 +225,7 @@ subject to class pace.
 
   * [x] Floating Point Math Instructions
 
-  * [ ] Conditional Instructions
+  * [x] Conditional Instructions
 
   * [x] Branch Instructions
 
@@ -257,7 +257,7 @@ subject to class pace.
 
 * [x] System Calls
 
-* [ ] Cache Memory Systems
+* [x] Cache Memory Systems
 
 * [x] Rotating Disc Systems and Maybe, SSDs
 
@@ -273,11 +273,19 @@ subject to class pace.
 
 * Bitwise Operations
 
-  * [ ] in ARM V8
+  * [x] in ARM V8
 
-  * [ ] in C and C++
+  * [x] in C and C++
 
-  * [ ] Bit Bashing
+  * [x] Bit Bashing
+
+* Logic Gates
+
+  [x] And / Or / Xor / Nor / Nand etc.
+
+  [x] building a half adder
+
+  [x] building a full adder
 
 * [x] Dialogs and Discourses on Debugging
 
