@@ -376,6 +376,20 @@ Unbelievable.
 
 * **Tuesday**
 
+  * Review
+
+  * Project Questions
+
+  * Atomics
+
+  * Review of Basic Gates
+
+  * SR Latch
+
+  * SR Flip Flop
+
+  * D Flip Flop
+
 * **Thursday**
 
 ## Week 14 - 5/7 5/9
