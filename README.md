@@ -287,6 +287,14 @@ subject to class pace.
 
   [x] building a full adder
 
+  [x] SR Latch
+
+  [x] SR Flip Flop
+
+  [x] Edge Triggering
+
+  [x] D Flip Flop
+
 * [x] Dialogs and Discourses on Debugging
 
 ## Environment
